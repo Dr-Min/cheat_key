@@ -4,8 +4,7 @@ import json
 from datetime import datetime
 
 # API 키 설정
-PERPLEXITY_API_KEY = "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"
-GROK_API_KEY = "xai-6DI6wTOMaXvzXDOQCYwxW44tCXzmE9R2dvCCSrswR8XZb2dclfhme8laLwC62D5BF9pSuYU7YwJMbSMK"
+
 
 # API 엔드포인트
 PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
