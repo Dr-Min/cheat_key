@@ -1,0 +1,829 @@
+2025-05-04 20:04:32,641 - INFO - 🔥 BG3 팔라딘 빌드 공략 자동 생성기 시작!
+2025-05-04 20:04:32,641 - INFO - Perplexity API를 통해 팔라딘 빌드 정보 수집 중...
+2025-05-04 20:05:09,754 - INFO - Perplexity API 응답 성공
+2025-05-04 20:05:09,754 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:05:09,756 - INFO - Grok API를 통해 팔라딘 한국어 블로그 포스트 생성 중...
+2025-05-04 20:05:09,756 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:06:09,841 - ERROR - Grok API 호출 중 오류 발생: HTTPSConnectionPool(host='api.x.ai', port=443): Read timed out. (read timeout=60)
+2025-05-04 20:06:09,854 - WARNING - Grok API 실패, Perplexity API로 대체...
+2025-05-04 20:07:16,183 - INFO - 🔥 BG3 팔라딘 빌드 공략 자동 생성기 시작!
+2025-05-04 20:07:16,183 - INFO - 테스트 모드 활성화: API 호출 건너뛰기
+2025-05-04 20:07:16,183 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:07:16,183 - INFO - 추출된 스킬/아이템: 0개
+2025-05-04 20:07:16,183 - INFO - 0개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:07:16,184 - INFO - 0개의 이미지 URL을 추가했습니다.
+2025-05-04 20:07:16,185 - INFO - 블로그 포스트가 'bg3_팔라딘_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:07:16,185 - INFO - ✅ 'bg3_팔라딘_build_20250504.md' 파일에 BG3 팔라딘 빌드 공략이 저장되었습니다.
+2025-05-04 20:07:55,214 - INFO - 🔥 BG3 팔라딘 빌드 공략 자동 생성기 시작!
+2025-05-04 20:07:55,215 - INFO - 테스트 모드 활성화: API 호출 건너뛰기
+2025-05-04 20:07:55,215 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:07:55,215 - INFO - 추출된 스킬/아이템: 6개
+2025-05-04 20:07:55,216 - INFO - 6개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:07:55,216 - INFO - 'Healing Word' 이미지 검색 중...
+2025-05-04 20:07:55,216 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Healing_Word
+2025-05-04 20:07:56,384 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:07:56,384 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:07:56,386 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:07:56,386 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:07:56,894 - INFO - 'Shield of Faith' 이미지 검색 중...
+2025-05-04 20:07:56,895 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Shield_of_Faith
+2025-05-04 20:07:57,932 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:07:57,932 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:07:57,932 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:07:57,934 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:07:58,439 - INFO - 'Cure Wounds' 이미지 검색 중...
+2025-05-04 20:07:58,439 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Cure_Wounds
+2025-05-04 20:07:59,430 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/e/e1/Cure_Wounds.webp/300px-Cure_Wounds.webp.png
+2025-05-04 20:07:59,432 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:07:59,432 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:07:59,434 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/e/e1/Cure_Wounds.webp/300px-Cure_Wounds.webp.png
+2025-05-04 20:07:59,952 - INFO - 'Adamantine Armor' 이미지 검색 중...
+2025-05-04 20:07:59,952 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Adamantine_Armor
+2025-05-04 20:08:01,008 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Adamantine_Armor (상태 코드: 404)
+2025-05-04 20:08:01,009 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Adamantine
+2025-05-04 20:08:01,968 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/3/32/Stunned_Condition_Icon.webp/40px-Stunned_Condition_Icon.webp.png
+2025-05-04 20:08:01,969 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/3/32/Stunned_Condition_Icon.webp/40px-Stunned_Condition_Icon.webp.png
+2025-05-04 20:08:01,969 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/32/Stunned_Condition_Icon.webp/40px-Stunned_Condition_Icon.webp.png
+2025-05-04 20:08:02,478 - INFO - 'Staff of Healing' 이미지 검색 중...
+2025-05-04 20:08:02,479 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Staff_of_Healing
+2025-05-04 20:08:03,482 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Staff_of_Healing (상태 코드: 404)
+2025-05-04 20:08:03,489 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Staff
+2025-05-04 20:08:04,580 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/7d/Bludgeoning_Damage_Icon.png/20px-Bludgeoning_Damage_Icon.png
+2025-05-04 20:08:04,581 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/1/1d/Pale_Oak_Staff_Icon.png/300px-Pale_Oak_Staff_Icon.png
+2025-05-04 20:08:04,581 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/7/7d/Bludgeoning_Damage_Icon.png/20px-Bludgeoning_Damage_Icon.png
+2025-05-04 20:08:05,085 - INFO - 'Helldusk Armor' 이미지 검색 중...
+2025-05-04 20:08:05,085 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Helldusk_Armor
+2025-05-04 20:08:06,159 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Helldusk_Armor (상태 코드: 404)
+2025-05-04 20:08:06,159 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Helldusk
+2025-05-04 20:08:07,438 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/2/24/Flawed_Helldusk_Armour_Unfaded_Icon.png/50px-Flawed_Helldusk_Armour_Unfaded_Icon.png
+2025-05-04 20:08:07,438 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/2/24/Flawed_Helldusk_Armour_Unfaded_Icon.png/50px-Flawed_Helldusk_Armour_Unfaded_Icon.png
+2025-05-04 20:08:07,438 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/24/Flawed_Helldusk_Armour_Unfaded_Icon.png/50px-Flawed_Helldusk_Armour_Unfaded_Icon.png
+2025-05-04 20:08:07,941 - INFO - 6개의 이미지 URL을 추가했습니다.
+2025-05-04 20:08:07,941 - INFO - 블로그 포스트가 'bg3_팔라딘_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:08:07,941 - INFO - ✅ 'bg3_팔라딘_build_20250504.md' 파일에 BG3 팔라딘 빌드 공략이 저장되었습니다.
+2025-05-04 20:08:49,872 - INFO - 🔥 BG3 생명권역 클레릭 빌드 공략 자동 생성기 시작!
+2025-05-04 20:08:49,873 - INFO - Perplexity API를 통해 생명권역 클레릭 빌드 정보 수집 중...
+2025-05-04 20:09:31,680 - INFO - Perplexity API 응답 성공
+2025-05-04 20:09:31,680 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:09:31,680 - INFO - Grok API를 통해 생명권역 클레릭 한국어 블로그 포스트 생성 중...
+2025-05-04 20:09:31,680 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:10:31,737 - ERROR - Grok API 호출 중 오류 발생: HTTPSConnectionPool(host='api.x.ai', port=443): Read timed out. (read timeout=60)
+2025-05-04 20:10:31,738 - WARNING - Grok API 실패, Perplexity API로 대체...
+2025-05-04 20:12:53,931 - INFO - 🔥 BG3 생명권역 클래릭 빌드 공략 자동 생성기 시작!
+2025-05-04 20:12:53,932 - INFO - Perplexity API를 통해 생명권역 클래릭 빌드 정보 수집 중...
+2025-05-04 20:13:27,948 - INFO - Perplexity API 응답 성공
+2025-05-04 20:13:27,951 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:13:27,952 - INFO - Grok API를 통해 생명권역 클래릭 한국어 블로그 포스트 생성 중...
+2025-05-04 20:13:27,953 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:15:29,577 - INFO - Grok API 응답 상태 코드: 200
+2025-05-04 20:15:29,578 - INFO - Grok API 응답 구조 키: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-04 20:15:29,579 - INFO - 한국어 블로그 포스트 생성 완료!
+2025-05-04 20:15:29,580 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:15:29,581 - INFO - 추출된 스킬/아이템: 29개
+2025-05-04 20:15:29,582 - INFO - 29개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:15:29,582 - INFO - 'Healing Word' 이미지 검색 중...
+2025-05-04 20:15:29,582 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Healing_Word
+2025-05-04 20:15:30,929 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:15:30,930 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:15:30,931 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:15:30,932 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:15:31,447 - INFO - 'Bless' 이미지 검색 중...
+2025-05-04 20:15:31,447 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Bless
+2025-05-04 20:15:32,386 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/1/14/Bless.webp/300px-Bless.webp.png
+2025-05-04 20:15:32,386 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/ba/Attack_Roll_Icon.png/25px-Attack_Roll_Icon.png
+2025-05-04 20:15:32,387 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/b/ba/Attack_Roll_Icon.png/25px-Attack_Roll_Icon.png
+2025-05-04 20:15:32,388 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/1/14/Bless.webp/300px-Bless.webp.png
+2025-05-04 20:15:32,896 - INFO - 'Shield of Faith' 이미지 검색 중...
+2025-05-04 20:15:32,896 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Shield_of_Faith
+2025-05-04 20:15:35,244 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:15:35,245 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:15:35,245 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:15:35,246 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:15:35,760 - INFO - 'Guiding Bolt' 이미지 검색 중...
+2025-05-04 20:15:35,760 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Guiding_Bolt
+2025-05-04 20:15:36,774 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/b/b5/Guiding_Bolt.webp/300px-Guiding_Bolt.webp.png
+2025-05-04 20:15:36,775 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/20px-Radiant_Damage_Icon.png
+2025-05-04 20:15:36,775 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/20px-Radiant_Damage_Icon.png
+2025-05-04 20:15:36,776 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/b/b5/Guiding_Bolt.webp/300px-Guiding_Bolt.webp.png
+2025-05-04 20:15:37,283 - INFO - 'Command' 이미지 검색 중...
+2025-05-04 20:15:37,283 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Command
+2025-05-04 20:15:38,262 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/f/fa/Command_Halt.webp/300px-Command_Halt.webp.png
+2025-05-04 20:15:38,264 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/e/e7/Saving_Throw_Icon.png/25px-Saving_Throw_Icon.png
+2025-05-04 20:15:38,264 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/e/e7/Saving_Throw_Icon.png/25px-Saving_Throw_Icon.png
+2025-05-04 20:15:38,265 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/f/fa/Command_Halt.webp/300px-Command_Halt.webp.png
+2025-05-04 20:15:38,778 - INFO - 'Spirit Guardians' 이미지 검색 중...
+2025-05-04 20:15:38,778 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Spirit_Guardians
+2025-05-04 20:15:39,676 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/2/2f/Spirit_Guardians.webp/300px-Spirit_Guardians.webp.png
+2025-05-04 20:15:39,677 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/25px-Radiant_Damage_Icon.png
+2025-05-04 20:15:39,677 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/25px-Radiant_Damage_Icon.png
+2025-05-04 20:15:39,679 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/2f/Spirit_Guardians.webp/300px-Spirit_Guardians.webp.png
+2025-05-04 20:15:40,194 - INFO - 'Sanctuary' 이미지 검색 중...
+2025-05-04 20:15:40,195 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Sanctuary
+2025-05-04 20:15:41,437 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/3/33/Sanctuary.webp/300px-Sanctuary.webp.png
+2025-05-04 20:15:41,438 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/c/c9/Bonus_Action_Icon.png/34px-Bonus_Action_Icon.png
+2025-05-04 20:15:41,439 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/c/c9/Bonus_Action_Icon.png/34px-Bonus_Action_Icon.png
+2025-05-04 20:15:41,439 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/33/Sanctuary.webp/300px-Sanctuary.webp.png
+2025-05-04 20:15:41,942 - INFO - 'Mass Healing Word' 이미지 검색 중...
+2025-05-04 20:15:41,942 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Mass_Healing_Word
+2025-05-04 20:15:43,163 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/d9/Mass_Healing_Word.webp/300px-Mass_Healing_Word.webp.png
+2025-05-04 20:15:43,163 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:15:43,164 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:15:43,164 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/d9/Mass_Healing_Word.webp/300px-Mass_Healing_Word.webp.png
+2025-05-04 20:15:43,671 - INFO - 'Destructive Wave' 이미지 검색 중...
+2025-05-04 20:15:43,671 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Destructive_Wave
+2025-05-04 20:15:44,912 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/1/15/Destructive_Wave.webp/300px-Destructive_Wave.webp.png
+2025-05-04 20:15:44,912 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/8/8e/Prone_Condition_Icon.webp/25px-Prone_Condition_Icon.webp.png
+2025-05-04 20:15:44,926 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/8/8e/Prone_Condition_Icon.webp/25px-Prone_Condition_Icon.webp.png
+2025-05-04 20:15:44,926 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/1/15/Destructive_Wave.webp/300px-Destructive_Wave.webp.png
+2025-05-04 20:15:45,440 - INFO - 'Divine Intervention' 이미지 검색 중...
+2025-05-04 20:15:45,441 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Divine_Intervention
+2025-05-04 20:15:46,671 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/5/5a/Divine_Intervention_Sunder_the_Heretical.webp/300px-Divine_Intervention_Sunder_the_Heretical.webp.png
+2025-05-04 20:15:46,671 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:15:46,680 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:15:46,681 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/5/5a/Divine_Intervention_Sunder_the_Heretical.webp/300px-Divine_Intervention_Sunder_the_Heretical.webp.png
+2025-05-04 20:15:47,185 - INFO - 'Holy Aura' 이미지 검색 중...
+2025-05-04 20:15:47,185 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Holy_Aura
+2025-05-04 20:15:48,500 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Holy_Aura (상태 코드: 404)
+2025-05-04 20:15:48,501 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Holy
+2025-05-04 20:15:49,551 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Holy
+2025-05-04 20:15:50,054 - INFO - 'Luminous Armor' 이미지 검색 중...
+2025-05-04 20:15:50,054 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Luminous_Armor
+2025-05-04 20:15:52,071 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Luminous_Armor (상태 코드: 404)
+2025-05-04 20:15:52,071 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Luminous
+2025-05-04 20:15:53,161 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/b3/Radiating_Orb_Condition_Icon.webp/25px-Radiating_Orb_Condition_Icon.webp.png
+2025-05-04 20:15:53,170 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/b/b3/Radiating_Orb_Condition_Icon.webp/25px-Radiating_Orb_Condition_Icon.webp.png
+2025-05-04 20:15:53,171 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/b/b3/Radiating_Orb_Condition_Icon.webp/25px-Radiating_Orb_Condition_Icon.webp.png
+2025-05-04 20:15:53,673 - INFO - 'Sacred Star' 이미지 검색 중...
+2025-05-04 20:15:53,673 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Sacred_Star
+2025-05-04 20:15:54,663 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Sacred_Star (상태 코드: 404)
+2025-05-04 20:15:54,663 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Sacred
+2025-05-04 20:15:55,657 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Sacred
+2025-05-04 20:15:56,170 - INFO - 'Reviving Hands' 이미지 검색 중...
+2025-05-04 20:15:56,171 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Reviving_Hands
+2025-05-04 20:15:57,214 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Reviving_Hands (상태 코드: 404)
+2025-05-04 20:15:57,214 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Reviving
+2025-05-04 20:15:58,251 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Reviving
+2025-05-04 20:15:58,767 - INFO - 'Holy Lance Helm' 이미지 검색 중...
+2025-05-04 20:15:58,767 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Holy_Lance_Helm
+2025-05-04 20:15:59,695 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/c/c5/Holy_Lance_Helm_Icon.png/300px-Holy_Lance_Helm_Icon.png
+2025-05-04 20:15:59,695 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/9/99/Helmets_Icon.png/25px-Helmets_Icon.png
+2025-05-04 20:15:59,695 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/c/c5/Holy_Lance_Helm_Icon.png/300px-Holy_Lance_Helm_Icon.png
+2025-05-04 20:15:59,695 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/c/c5/Holy_Lance_Helm_Icon.png/300px-Holy_Lance_Helm_Icon.png
+2025-05-04 20:16:00,206 - INFO - 'Cloak of Protection' 이미지 검색 중...
+2025-05-04 20:16:00,206 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Cloak_of_Protection
+2025-05-04 20:16:01,121 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/2/2a/Cloak_Of_Protection_Faded.png/300px-Cloak_Of_Protection_Faded.png
+2025-05-04 20:16:01,121 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:16:01,121 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:16:01,121 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/2a/Cloak_Of_Protection_Faded.png/300px-Cloak_Of_Protection_Faded.png
+2025-05-04 20:16:01,640 - INFO - 'Armor of Persistence' 이미지 검색 중...
+2025-05-04 20:16:01,641 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Armor_of_Persistence
+2025-05-04 20:16:02,698 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Armor_of_Persistence (상태 코드: 404)
+2025-05-04 20:16:02,698 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Armor
+2025-05-04 20:16:04,122 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/17/Light_Armour_Icon.png/25px-Light_Armour_Icon.png
+2025-05-04 20:16:04,132 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/1/17/Light_Armour_Icon.png/25px-Light_Armour_Icon.png
+2025-05-04 20:16:04,135 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/1/17/Light_Armour_Icon.png/25px-Light_Armour_Icon.png
+2025-05-04 20:16:04,646 - INFO - 'Ring of Concentration' 이미지 검색 중...
+2025-05-04 20:16:04,646 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Ring_of_Concentration
+2025-05-04 20:16:05,641 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Ring_of_Concentration (상태 코드: 404)
+2025-05-04 20:16:05,643 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Ring
+2025-05-04 20:16:07,021 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png
+2025-05-04 20:16:07,021 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png
+2025-05-04 20:16:07,021 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/c/cd/Ring_A_Simple_Gold_Unfaded_Icon.png/50px-Ring_A_Simple_Gold_Unfaded_Icon.png
+2025-05-04 20:16:07,544 - INFO - '치유량 보너스' 이미지 검색 중...
+2025-05-04 20:16:07,544 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0%EB%9F%89_%EB%B3%B4%EB%84%88%EC%8A%A4
+2025-05-04 20:16:08,541 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0%EB%9F%89_%EB%B3%B4%EB%84%88%EC%8A%A4 (상태 코드: 404)
+2025-05-04 20:16:08,552 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0%EB%9F%89
+2025-05-04 20:16:09,836 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0%EB%9F%89
+2025-05-04 20:16:10,338 - INFO - '중장갑 숙련' 이미지 검색 중...
+2025-05-04 20:16:10,338 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%A4%91%EC%9E%A5%EA%B0%91_%EC%88%99%EB%A0%A8
+2025-05-04 20:16:11,366 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%A4%91%EC%9E%A5%EA%B0%91_%EC%88%99%EB%A0%A8 (상태 코드: 404)
+2025-05-04 20:16:11,367 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%A4%91%EC%9E%A5%EA%B0%91
+2025-05-04 20:16:12,405 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%A4%91%EC%9E%A5%EA%B0%91
+2025-05-04 20:16:12,908 - INFO - '레벨 6 특성 - 축복받은 치유' 이미지 검색 중...
+2025-05-04 20:16:12,908 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EB%A0%88%EB%B2%A8_6_%ED%8A%B9%EC%84%B1_-_%EC%B6%95%EB%B3%B5%EB%B0%9B%EC%9D%80_%EC%B9%98%EC%9C%A0
+2025-05-04 20:16:13,933 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%A0%88%EB%B2%A8_6_%ED%8A%B9%EC%84%B1_-_%EC%B6%95%EB%B3%B5%EB%B0%9B%EC%9D%80_%EC%B9%98%EC%9C%A0 (상태 코드: 404)
+2025-05-04 20:16:13,934 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EB%A0%88%EB%B2%A8
+2025-05-04 20:16:15,028 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%A0%88%EB%B2%A8
+2025-05-04 20:16:15,540 - INFO - '추가 효과' 이미지 검색 중...
+2025-05-04 20:16:15,541 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B6%94%EA%B0%80_%ED%9A%A8%EA%B3%BC
+2025-05-04 20:16:16,572 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B6%94%EA%B0%80_%ED%9A%A8%EA%B3%BC (상태 코드: 404)
+2025-05-04 20:16:16,572 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B6%94%EA%B0%80
+2025-05-04 20:16:17,573 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B6%94%EA%B0%80
+2025-05-04 20:16:18,078 - INFO - '패치 8' 이미지 검색 중...
+2025-05-04 20:16:18,078 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%ED%8C%A8%EC%B9%98_8
+2025-05-04 20:16:19,151 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%ED%8C%A8%EC%B9%98_8 (상태 코드: 404)
+2025-05-04 20:16:19,153 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%ED%8C%A8%EC%B9%98
+2025-05-04 20:16:20,126 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%ED%8C%A8%EC%B9%98
+2025-05-04 20:16:20,635 - INFO - 15개의 이미지 URL을 추가했습니다.
+2025-05-04 20:16:20,635 - INFO - 블로그 포스트가 'bg3_생명권역_클래릭_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:16:20,635 - INFO - Ghost 블로그에 포스팅 중...
+2025-05-04 20:16:21,301 - ERROR - Ghost 블로그 포스팅 중 오류 발생: 400 Client Error: Bad Request for url: https://globexfeed.com/ghost/api/admin/posts/
+2025-05-04 20:16:21,301 - WARNING - 
+⚠️ 경고: Ghost 블로그 포스팅에 실패했습니다.
+2025-05-04 20:16:21,301 - INFO - ✅ 'bg3_생명권역_클래릭_build_20250504.md' 파일에 BG3 생명권역 클래릭 빌드 공략이 저장되었습니다.
+2025-05-04 20:24:44,014 - INFO - 🔥 BG3 생명권역 클레릭 빌드 공략 자동 생성기 시작!
+2025-05-04 20:24:44,015 - INFO - Perplexity API를 통해 생명권역 클레릭 빌드 정보 수집 중...
+2025-05-04 20:25:13,856 - INFO - Perplexity API 응답 성공
+2025-05-04 20:25:13,859 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:25:13,859 - INFO - Grok API를 통해 생명권역 클레릭 한국어 블로그 포스트 생성 중...
+2025-05-04 20:25:13,859 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:26:27,188 - INFO - Grok API 응답 상태 코드: 200
+2025-05-04 20:26:27,188 - INFO - Grok API 응답 구조 키: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-04 20:26:27,190 - INFO - 한국어 블로그 포스트 생성 완료!
+2025-05-04 20:26:27,191 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:26:27,191 - INFO - 추출된 스킬/아이템: 17개
+2025-05-04 20:26:27,191 - INFO - 17개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:26:27,192 - INFO - '생명권역 클레릭' 이미지 검색 중...
+2025-05-04 20:26:27,193 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD_%ED%81%B4%EB%A0%88%EB%A6%AD
+2025-05-04 20:26:28,297 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD_%ED%81%B4%EB%A0%88%EB%A6%AD (상태 코드: 404)
+2025-05-04 20:26:28,298 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD
+2025-05-04 20:26:29,426 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD
+2025-05-04 20:26:29,942 - INFO - '천상의 간섭' 이미지 검색 중...
+2025-05-04 20:26:29,942 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B2%9C%EC%83%81%EC%9D%98_%EA%B0%84%EC%84%AD
+2025-05-04 20:26:30,978 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B2%9C%EC%83%81%EC%9D%98_%EA%B0%84%EC%84%AD (상태 코드: 404)
+2025-05-04 20:26:30,980 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B2%9C%EC%83%81%EC%9D%98
+2025-05-04 20:26:33,020 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B2%9C%EC%83%81%EC%9D%98
+2025-05-04 20:26:33,526 - INFO - '뱀파이어스 터치' 이미지 검색 중...
+2025-05-04 20:26:33,526 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EB%B1%80%ED%8C%8C%EC%9D%B4%EC%96%B4%EC%8A%A4_%ED%84%B0%EC%B9%98
+2025-05-04 20:26:34,533 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%B1%80%ED%8C%8C%EC%9D%B4%EC%96%B4%EC%8A%A4_%ED%84%B0%EC%B9%98 (상태 코드: 404)
+2025-05-04 20:26:34,534 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EB%B1%80%ED%8C%8C%EC%9D%B4%EC%96%B4%EC%8A%A4
+2025-05-04 20:26:35,540 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%B1%80%ED%8C%8C%EC%9D%B4%EC%96%B4%EC%8A%A4
+2025-05-04 20:26:36,043 - INFO - '액세서리' 이미지 검색 중...
+2025-05-04 20:26:36,043 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%95%A1%EC%84%B8%EC%84%9C%EB%A6%AC
+2025-05-04 20:26:37,068 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%95%A1%EC%84%B8%EC%84%9C%EB%A6%AC (상태 코드: 404)
+2025-05-04 20:26:37,580 - INFO - '속삭이는 약속 반지' 이미지 검색 중...
+2025-05-04 20:26:37,581 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%86%8D%EC%82%AD%EC%9D%B4%EB%8A%94_%EC%95%BD%EC%86%8D_%EB%B0%98%EC%A7%80
+2025-05-04 20:26:38,729 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%86%8D%EC%82%AD%EC%9D%B4%EB%8A%94_%EC%95%BD%EC%86%8D_%EB%B0%98%EC%A7%80 (상태 코드: 404)
+2025-05-04 20:26:38,730 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%86%8D%EC%82%AD%EC%9D%B4%EB%8A%94
+2025-05-04 20:26:39,770 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%86%8D%EC%82%AD%EC%9D%B4%EB%8A%94
+2025-05-04 20:26:40,278 - INFO - '회복의 아뮬렛' 이미지 검색 중...
+2025-05-04 20:26:40,279 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%ED%9A%8C%EB%B3%B5%EC%9D%98_%EC%95%84%EB%AE%AC%EB%A0%9B
+2025-05-04 20:26:41,708 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%ED%9A%8C%EB%B3%B5%EC%9D%98_%EC%95%84%EB%AE%AC%EB%A0%9B (상태 코드: 404)
+2025-05-04 20:26:41,709 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%ED%9A%8C%EB%B3%B5%EC%9D%98
+2025-05-04 20:26:42,795 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%ED%9A%8C%EB%B3%B5%EC%9D%98
+2025-05-04 20:26:43,304 - INFO - '지옥 기수의 긍지 장갑' 이미지 검색 중...
+2025-05-04 20:26:43,304 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%A7%80%EC%98%A5_%EA%B8%B0%EC%88%98%EC%9D%98_%EA%B8%8D%EC%A7%80_%EC%9E%A5%EA%B0%91
+2025-05-04 20:26:44,323 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%A7%80%EC%98%A5_%EA%B8%B0%EC%88%98%EC%9D%98_%EA%B8%8D%EC%A7%80_%EC%9E%A5%EA%B0%91 (상태 코드: 404)
+2025-05-04 20:26:44,324 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%A7%80%EC%98%A5
+2025-05-04 20:26:45,409 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%A7%80%EC%98%A5
+2025-05-04 20:26:45,925 - INFO - '신성한 촉매' 이미지 검색 중...
+2025-05-04 20:26:45,925 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C_%EC%B4%89%EB%A7%A4
+2025-05-04 20:26:47,319 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C_%EC%B4%89%EB%A7%A4 (상태 코드: 404)
+2025-05-04 20:26:47,320 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C
+2025-05-04 20:26:48,479 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C
+2025-05-04 20:26:48,981 - INFO - '소생의 손길 장갑' 이미지 검색 중...
+2025-05-04 20:26:48,981 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%86%8C%EC%83%9D%EC%9D%98_%EC%86%90%EA%B8%B8_%EC%9E%A5%EA%B0%91
+2025-05-04 20:26:50,120 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%86%8C%EC%83%9D%EC%9D%98_%EC%86%90%EA%B8%B8_%EC%9E%A5%EA%B0%91 (상태 코드: 404)
+2025-05-04 20:26:50,120 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%86%8C%EC%83%9D%EC%9D%98
+2025-05-04 20:26:51,086 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%86%8C%EC%83%9D%EC%9D%98
+2025-05-04 20:26:51,598 - INFO - '바이코니아 요새' 이미지 검색 중...
+2025-05-04 20:26:51,598 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EB%B0%94%EC%9D%B4%EC%BD%94%EB%8B%88%EC%95%84_%EC%9A%94%EC%83%88
+2025-05-04 20:26:52,665 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%B0%94%EC%9D%B4%EC%BD%94%EB%8B%88%EC%95%84_%EC%9A%94%EC%83%88 (상태 코드: 404)
+2025-05-04 20:26:52,666 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EB%B0%94%EC%9D%B4%EC%BD%94%EB%8B%88%EC%95%84
+2025-05-04 20:26:53,664 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%B0%94%EC%9D%B4%EC%BD%94%EB%8B%88%EC%95%84
+2025-05-04 20:26:54,176 - INFO - '버프와 치유의 시너지 활용' 이미지 검색 중...
+2025-05-04 20:26:54,177 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EB%B2%84%ED%94%84%EC%99%80_%EC%B9%98%EC%9C%A0%EC%9D%98_%EC%8B%9C%EB%84%88%EC%A7%80_%ED%99%9C%EC%9A%A9
+2025-05-04 20:26:55,433 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%B2%84%ED%94%84%EC%99%80_%EC%B9%98%EC%9C%A0%EC%9D%98_%EC%8B%9C%EB%84%88%EC%A7%80_%ED%99%9C%EC%9A%A9 (상태 코드: 404)
+2025-05-04 20:26:55,434 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EB%B2%84%ED%94%84%EC%99%80
+2025-05-04 20:26:56,559 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%B2%84%ED%94%84%EC%99%80
+2025-05-04 20:26:57,067 - INFO - '광역 제어로 적 묶기' 이미지 검색 중...
+2025-05-04 20:26:57,067 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EA%B4%91%EC%97%AD_%EC%A0%9C%EC%96%B4%EB%A1%9C_%EC%A0%81_%EB%AC%B6%EA%B8%B0
+2025-05-04 20:26:58,150 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EA%B4%91%EC%97%AD_%EC%A0%9C%EC%96%B4%EB%A1%9C_%EC%A0%81_%EB%AC%B6%EA%B8%B0 (상태 코드: 404)
+2025-05-04 20:26:58,150 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EA%B4%91%EC%97%AD
+2025-05-04 20:26:59,542 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EA%B4%91%EC%97%AD
+2025-05-04 20:27:00,047 - INFO - '영혼의 수호자' 이미지 검색 중...
+2025-05-04 20:27:00,048 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC%EC%9D%98_%EC%88%98%ED%98%B8%EC%9E%90
+2025-05-04 20:27:01,132 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC%EC%9D%98_%EC%88%98%ED%98%B8%EC%9E%90 (상태 코드: 404)
+2025-05-04 20:27:01,132 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC%EC%9D%98
+2025-05-04 20:27:02,151 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC%EC%9D%98
+2025-05-04 20:27:02,667 - INFO - '신성한 단상' 이미지 검색 중...
+2025-05-04 20:27:02,667 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C_%EB%8B%A8%EC%83%81
+2025-05-04 20:27:04,013 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C_%EB%8B%A8%EC%83%81 (상태 코드: 404)
+2025-05-04 20:27:04,014 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C
+2025-05-04 20:27:04,999 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C
+2025-05-04 20:27:05,504 - INFO - '위기 상황 대처' 이미지 검색 중...
+2025-05-04 20:27:05,504 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%9C%84%EA%B8%B0_%EC%83%81%ED%99%A9_%EB%8C%80%EC%B2%98
+2025-05-04 20:27:06,487 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%9C%84%EA%B8%B0_%EC%83%81%ED%99%A9_%EB%8C%80%EC%B2%98 (상태 코드: 404)
+2025-05-04 20:27:06,487 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%9C%84%EA%B8%B0
+2025-05-04 20:27:07,567 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%9C%84%EA%B8%B0
+2025-05-04 20:27:08,084 - INFO - '대규모 치유의 말' 이미지 검색 중...
+2025-05-04 20:27:08,084 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EB%8C%80%EA%B7%9C%EB%AA%A8_%EC%B9%98%EC%9C%A0%EC%9D%98_%EB%A7%90
+2025-05-04 20:27:09,089 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%8C%80%EA%B7%9C%EB%AA%A8_%EC%B9%98%EC%9C%A0%EC%9D%98_%EB%A7%90 (상태 코드: 404)
+2025-05-04 20:27:09,090 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EB%8C%80%EA%B7%9C%EB%AA%A8
+2025-05-04 20:27:10,179 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EB%8C%80%EA%B7%9C%EB%AA%A8
+2025-05-04 20:27:10,692 - INFO - '치유 강화' 이미지 검색 중...
+2025-05-04 20:27:10,692 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0_%EA%B0%95%ED%99%94
+2025-05-04 20:27:11,939 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0_%EA%B0%95%ED%99%94 (상태 코드: 404)
+2025-05-04 20:27:11,940 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0
+2025-05-04 20:27:13,131 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B9%98%EC%9C%A0
+2025-05-04 20:27:13,635 - INFO - 0개의 이미지 URL을 추가했습니다.
+2025-05-04 20:27:13,637 - INFO - 블로그 포스트가 'bg3_생명권역_클레릭_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:27:13,637 - INFO - Ghost 블로그에 포스팅 중...
+2025-05-04 20:27:13,644 - INFO - JWT 토큰 생성 완료: eyJhbGciOiJIUzI1NiIs...
+2025-05-04 20:27:13,645 - INFO - Ghost API 요청 URL: https://globexfeed.com/ghost/api/admin/posts/
+2025-05-04 20:27:14,827 - INFO - 응답 코드: 201
+2025-05-04 20:27:14,828 - INFO - Ghost 블로그 포스트가 성공적으로 생성되었습니다.
+2025-05-04 20:27:14,828 - INFO - 포스트 URL: https://globexfeed.com/p/8abe3a79-ca79-4498-b833-d579fbc6bf5a/
+2025-05-04 20:27:14,830 - INFO - Ghost 블로그에 성공적으로 포스팅되었습니다: https://globexfeed.com/p/8abe3a79-ca79-4498-b833-d579fbc6bf5a/
+2025-05-04 20:27:14,830 - INFO - 
+✅ 완료! 'bg3_생명권역_클레릭_build_20250504.md' 파일에 BG3 생명권역 클레릭 빌드 공략이 저장되었습니다.
+2025-05-04 20:27:14,830 - INFO - ✅ Ghost 블로그 포스팅 URL: https://globexfeed.com/p/8abe3a79-ca79-4498-b833-d579fbc6bf5a/
+2025-05-04 20:28:43,172 - INFO - 🔥 BG3 생명권역 클레릭 빌드 공략 자동 생성기 시작!
+2025-05-04 20:28:43,173 - INFO - Perplexity API를 통해 생명권역 클레릭 빌드 정보 수집 중...
+2025-05-04 20:29:36,600 - INFO - Perplexity API 원본 응답이 'perplexity_raw_response_20250504_202936.json' 파일에 저장되었습니다.
+2025-05-04 20:29:36,601 - INFO - Perplexity API 응답 성공
+2025-05-04 20:29:36,603 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:29:36,603 - INFO - Grok API를 통해 생명권역 클레릭 한국어 블로그 포스트 생성 중...
+2025-05-04 20:29:36,604 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:31:14,291 - INFO - Grok API 원본 응답이 'grok_raw_response_20250504_203114.json' 파일에 저장되었습니다.
+2025-05-04 20:31:14,292 - INFO - Grok API 응답 상태 코드: 200
+2025-05-04 20:31:14,292 - INFO - Grok API 응답 구조 키: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-04 20:31:14,294 - INFO - 한국어 블로그 포스트 생성 완료!
+2025-05-04 20:31:14,295 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:31:14,296 - INFO - 추출된 스킬/아이템: 17개
+2025-05-04 20:31:14,296 - INFO - 17개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:31:14,297 - INFO - 'Shield of Faith' 이미지 검색 중...
+2025-05-04 20:31:14,297 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Shield_of_Faith
+2025-05-04 20:31:15,304 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:31:15,304 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:31:15,305 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:31:15,305 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:31:15,820 - INFO - 'Guiding Bolt' 이미지 검색 중...
+2025-05-04 20:31:15,820 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Guiding_Bolt
+2025-05-04 20:31:17,085 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/b/b5/Guiding_Bolt.webp/300px-Guiding_Bolt.webp.png
+2025-05-04 20:31:17,085 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/20px-Radiant_Damage_Icon.png
+2025-05-04 20:31:17,086 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/20px-Radiant_Damage_Icon.png
+2025-05-04 20:31:17,087 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/b/b5/Guiding_Bolt.webp/300px-Guiding_Bolt.webp.png
+2025-05-04 20:31:17,593 - INFO - 'Healing Word' 이미지 검색 중...
+2025-05-04 20:31:17,594 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Healing_Word
+2025-05-04 20:31:18,662 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:31:18,663 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:31:18,664 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:31:18,664 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:31:19,168 - INFO - 'Spiritual Weapon' 이미지 검색 중...
+2025-05-04 20:31:19,168 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Spiritual_Weapon
+2025-05-04 20:31:20,432 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/1/18/Spiritual_Weapon_Halberd.webp/300px-Spiritual_Weapon_Halberd.webp.png
+2025-05-04 20:31:20,433 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/c/c9/Bonus_Action_Icon.png/34px-Bonus_Action_Icon.png
+2025-05-04 20:31:20,434 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/c/c9/Bonus_Action_Icon.png/34px-Bonus_Action_Icon.png
+2025-05-04 20:31:20,434 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/1/18/Spiritual_Weapon_Halberd.webp/300px-Spiritual_Weapon_Halberd.webp.png
+2025-05-04 20:31:20,942 - INFO - 'Spirit Guardians' 이미지 검색 중...
+2025-05-04 20:31:20,942 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Spirit_Guardians
+2025-05-04 20:31:21,947 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/2/2f/Spirit_Guardians.webp/300px-Spirit_Guardians.webp.png
+2025-05-04 20:31:21,948 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/25px-Radiant_Damage_Icon.png
+2025-05-04 20:31:21,948 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/25px-Radiant_Damage_Icon.png
+2025-05-04 20:31:21,950 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/2f/Spirit_Guardians.webp/300px-Spirit_Guardians.webp.png
+2025-05-04 20:31:22,462 - INFO - 'Mass Healing Word' 이미지 검색 중...
+2025-05-04 20:31:22,462 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Mass_Healing_Word
+2025-05-04 20:31:23,782 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/d9/Mass_Healing_Word.webp/300px-Mass_Healing_Word.webp.png
+2025-05-04 20:31:23,784 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:31:23,785 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:31:23,785 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/d9/Mass_Healing_Word.webp/300px-Mass_Healing_Word.webp.png
+2025-05-04 20:31:24,296 - INFO - 'Revivify' 이미지 검색 중...
+2025-05-04 20:31:24,296 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Revivify
+2025-05-04 20:31:25,206 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/2/23/Revivify.webp/300px-Revivify.webp.png
+2025-05-04 20:31:25,207 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/f2/Action_Icon.png/34px-Action_Icon.png
+2025-05-04 20:31:25,207 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/f2/Action_Icon.png/34px-Action_Icon.png
+2025-05-04 20:31:25,208 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/23/Revivify.webp/300px-Revivify.webp.png
+2025-05-04 20:31:25,716 - INFO - '2025년 4월 16일 업데이트' 이미지 검색 중...
+2025-05-04 20:31:25,716 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/2025%EB%85%84_4%EC%9B%94_16%EC%9D%BC_%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8
+2025-05-04 20:31:26,861 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/2025%EB%85%84_4%EC%9B%94_16%EC%9D%BC_%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8 (상태 코드: 404)
+2025-05-04 20:31:26,863 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/2025%EB%85%84
+2025-05-04 20:31:28,173 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/2025%EB%85%84
+2025-05-04 20:31:28,689 - INFO - 'Baldur's Gate 3' 이미지 검색 중...
+2025-05-04 20:31:28,689 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Baldur%27s_Gate_3
+2025-05-04 20:31:29,990 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/8/89/Baldur%27s_Gate_3_Cover_Art.webp/270px-Baldur%27s_Gate_3_Cover_Art.webp.png
+2025-05-04 20:31:29,993 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/b7/BGWiki.webp/25px-BGWiki.webp.png
+2025-05-04 20:31:29,995 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/8/8b/Barbarian_Icon_Small.webp/25px-Barbarian_Icon_Small.webp.png
+2025-05-04 20:31:29,998 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/8/89/Baldur%27s_Gate_3_Cover_Art.webp/270px-Baldur%27s_Gate_3_Cover_Art.webp.png
+2025-05-04 20:31:30,500 - INFO - '생명권역 클레릭' 이미지 검색 중...
+2025-05-04 20:31:30,500 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD_%ED%81%B4%EB%A0%88%EB%A6%AD
+2025-05-04 20:31:31,533 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD_%ED%81%B4%EB%A0%88%EB%A6%AD (상태 코드: 404)
+2025-05-04 20:31:31,534 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD
+2025-05-04 20:31:32,451 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%83%9D%EB%AA%85%EA%B6%8C%EC%97%AD
+2025-05-04 20:31:32,964 - INFO - '아다만틴 판금갑옷' 이미지 검색 중...
+2025-05-04 20:31:32,964 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%95%84%EB%8B%A4%EB%A7%8C%ED%8B%B4_%ED%8C%90%EA%B8%88%EA%B0%91%EC%98%B7
+2025-05-04 20:31:33,901 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%95%84%EB%8B%A4%EB%A7%8C%ED%8B%B4_%ED%8C%90%EA%B8%88%EA%B0%91%EC%98%B7 (상태 코드: 404)
+2025-05-04 20:31:33,901 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%95%84%EB%8B%A4%EB%A7%8C%ED%8B%B4
+2025-05-04 20:31:34,897 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%95%84%EB%8B%A4%EB%A7%8C%ED%8B%B4
+2025-05-04 20:31:35,407 - INFO - '치료 목걸이' 이미지 검색 중...
+2025-05-04 20:31:35,408 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B9%98%EB%A3%8C_%EB%AA%A9%EA%B1%B8%EC%9D%B4
+2025-05-04 20:31:36,529 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B9%98%EB%A3%8C_%EB%AA%A9%EA%B1%B8%EC%9D%B4 (상태 코드: 404)
+2025-05-04 20:31:36,530 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%B9%98%EB%A3%8C
+2025-05-04 20:31:37,566 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%B9%98%EB%A3%8C
+2025-05-04 20:31:38,084 - INFO - '새빛 방패' 이미지 검색 중...
+2025-05-04 20:31:38,084 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%83%88%EB%B9%9B_%EB%B0%A9%ED%8C%A8
+2025-05-04 20:31:39,100 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%83%88%EB%B9%9B_%EB%B0%A9%ED%8C%A8 (상태 코드: 404)
+2025-05-04 20:31:39,101 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%83%88%EB%B9%9B
+2025-05-04 20:31:40,084 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%83%88%EB%B9%9B
+2025-05-04 20:31:40,587 - INFO - '영혼 포착 장갑' 이미지 검색 중...
+2025-05-04 20:31:40,587 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC_%ED%8F%AC%EC%B0%A9_%EC%9E%A5%EA%B0%91
+2025-05-04 20:31:41,671 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC_%ED%8F%AC%EC%B0%A9_%EC%9E%A5%EA%B0%91 (상태 코드: 404)
+2025-05-04 20:31:41,672 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC
+2025-05-04 20:31:42,672 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%98%81%ED%98%BC
+2025-05-04 20:31:43,189 - INFO - '신성한 검 아우렐의 빛' 이미지 검색 중...
+2025-05-04 20:31:43,189 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C_%EA%B2%80_%EC%95%84%EC%9A%B0%EB%A0%90%EC%9D%98_%EB%B9%9B
+2025-05-04 20:31:44,154 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C_%EA%B2%80_%EC%95%84%EC%9A%B0%EB%A0%90%EC%9D%98_%EB%B9%9B (상태 코드: 404)
+2025-05-04 20:31:44,155 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C
+2025-05-04 20:31:45,099 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%8B%A0%EC%84%B1%ED%95%9C
+2025-05-04 20:31:45,607 - INFO - '완전한 생명의 반지' 이미지 검색 중...
+2025-05-04 20:31:45,607 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/%EC%99%84%EC%A0%84%ED%95%9C_%EC%83%9D%EB%AA%85%EC%9D%98_%EB%B0%98%EC%A7%80
+2025-05-04 20:31:47,602 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%99%84%EC%A0%84%ED%95%9C_%EC%83%9D%EB%AA%85%EC%9D%98_%EB%B0%98%EC%A7%80 (상태 코드: 404)
+2025-05-04 20:31:47,604 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/%EC%99%84%EC%A0%84%ED%95%9C
+2025-05-04 20:31:48,668 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/%EC%99%84%EC%A0%84%ED%95%9C
+2025-05-04 20:31:49,181 - INFO - 8개의 이미지 URL을 추가했습니다.
+2025-05-04 20:31:49,183 - INFO - 블로그 포스트가 'bg3_생명권역_클레릭_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:31:49,183 - INFO - Ghost 블로그에 포스팅 중...
+2025-05-04 20:31:49,183 - INFO - JWT 토큰 생성 완료: eyJhbGciOiJIUzI1NiIs...
+2025-05-04 20:31:49,184 - INFO - Ghost API 요청 URL: https://globexfeed.com/ghost/api/admin/posts/
+2025-05-04 20:31:50,193 - INFO - 응답 코드: 201
+2025-05-04 20:31:50,194 - INFO - Ghost 블로그 포스트가 성공적으로 생성되었습니다.
+2025-05-04 20:31:50,194 - INFO - 포스트 URL: https://globexfeed.com/p/82bcee78-fff1-406a-96a0-8096ffed3c18/
+2025-05-04 20:31:50,196 - INFO - Ghost 블로그에 성공적으로 포스팅되었습니다: https://globexfeed.com/p/82bcee78-fff1-406a-96a0-8096ffed3c18/
+2025-05-04 20:31:50,196 - INFO - 
+✅ 완료! 'bg3_생명권역_클레릭_build_20250504.md' 파일에 BG3 생명권역 클레릭 빌드 공략이 저장되었습니다.
+2025-05-04 20:31:50,196 - INFO - ✅ Ghost 블로그 포스팅 URL: https://globexfeed.com/p/82bcee78-fff1-406a-96a0-8096ffed3c18/
+2025-05-04 20:35:21,412 - INFO - 🔥 BG3 투척바바 빌드 공략 자동 생성기 시작!
+2025-05-04 20:35:21,419 - INFO - Perplexity API를 통해 투척바바 빌드 정보 수집 중...
+2025-05-04 20:35:56,145 - INFO - Perplexity API 원본 응답이 'perplexity_raw_response_20250504_203556.json' 파일에 저장되었습니다.
+2025-05-04 20:35:56,145 - INFO - Perplexity API 응답 성공
+2025-05-04 20:35:56,153 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:35:56,153 - INFO - Grok API를 통해 투척바바 한국어 블로그 포스트 생성 중...
+2025-05-04 20:35:56,154 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:37:13,695 - INFO - Grok API 원본 응답이 'grok_raw_response_20250504_203713.json' 파일에 저장되었습니다.
+2025-05-04 20:37:13,695 - INFO - Grok API 응답 상태 코드: 200
+2025-05-04 20:37:13,695 - INFO - Grok API 응답 구조 키: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-04 20:37:13,696 - INFO - 한국어 블로그 포스트 생성 완료!
+2025-05-04 20:37:13,696 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:37:13,706 - INFO - 추출된 스킬/아이템: 13개
+2025-05-04 20:37:13,707 - INFO - 추출된 영문 아이템 목록: STR, DEX, AC, CON, INT, WIS, CHA, ASI, Frenzied Throw, Thief, Act 1, Rage, Extra Attack
+2025-05-04 20:37:13,707 - INFO - 13개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:37:13,707 - INFO - 'Frenzied Throw' 이미지 검색 중...
+2025-05-04 20:37:13,708 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Frenzied_Throw
+2025-05-04 20:37:14,841 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Frenzied_Throw (상태 코드: 404)
+2025-05-04 20:37:14,842 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Frenzied
+2025-05-04 20:37:15,885 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Frenzied
+2025-05-04 20:37:16,388 - INFO - 'Thief' 이미지 검색 중...
+2025-05-04 20:37:16,388 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Thief
+2025-05-04 20:37:17,654 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/6/67/Thief_Icon.png/100px-Thief_Icon.png
+2025-05-04 20:37:17,655 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/d/dc/Fast_Hands_Icon.webp/40px-Fast_Hands_Icon.webp.png
+2025-05-04 20:37:17,657 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/6/67/Thief_Icon.png/100px-Thief_Icon.png
+2025-05-04 20:37:17,657 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/6/67/Thief_Icon.png/100px-Thief_Icon.png
+2025-05-04 20:37:18,162 - INFO - 'Act 1' 이미지 검색 중...
+2025-05-04 20:37:18,162 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Act_1
+2025-05-04 20:37:19,496 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/6/69/Quest_Map_Icon.png/25px-Quest_Map_Icon.png
+2025-05-04 20:37:19,496 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/6/69/Quest_Map_Icon.png/25px-Quest_Map_Icon.png
+2025-05-04 20:37:19,497 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/6/69/Quest_Map_Icon.png/25px-Quest_Map_Icon.png
+2025-05-04 20:37:20,007 - INFO - 'Rage' 이미지 검색 중...
+2025-05-04 20:37:20,007 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Rage
+2025-05-04 20:37:21,285 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:37:21,286 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:37:21,286 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:37:21,287 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:37:21,792 - INFO - 'Extra Attack' 이미지 검색 중...
+2025-05-04 20:37:21,792 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Extra_Attack
+2025-05-04 20:37:23,026 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/d5/Extra_Attack.webp/300px-Extra_Attack.webp.png
+2025-05-04 20:37:23,028 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/18/Deepened_Pact_Icon.webp/25px-Deepened_Pact_Icon.webp.png
+2025-05-04 20:37:23,029 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/1/18/Deepened_Pact_Icon.webp/25px-Deepened_Pact_Icon.webp.png
+2025-05-04 20:37:23,030 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/d5/Extra_Attack.webp/300px-Extra_Attack.webp.png
+2025-05-04 20:37:23,537 - INFO - 4개의 이미지 URL을 추가했습니다.
+2025-05-04 20:37:23,540 - INFO - 블로그 포스트가 'bg3_투척바바_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:37:23,540 - INFO - Ghost 블로그에 포스팅 중...
+2025-05-04 20:37:23,541 - INFO - JWT 토큰 생성 완료: eyJhbGciOiJIUzI1NiIs...
+2025-05-04 20:37:23,542 - INFO - Ghost API 요청 URL: https://globexfeed.com/ghost/api/admin/posts/
+2025-05-04 20:37:24,501 - INFO - 응답 코드: 201
+2025-05-04 20:37:24,503 - INFO - Ghost 블로그 포스트가 성공적으로 생성되었습니다.
+2025-05-04 20:37:24,503 - INFO - 포스트 URL: https://globexfeed.com/p/89ecf165-c356-4e58-bf08-cdd2a13a3b16/
+2025-05-04 20:37:24,505 - INFO - Ghost 블로그에 성공적으로 포스팅되었습니다: https://globexfeed.com/p/89ecf165-c356-4e58-bf08-cdd2a13a3b16/
+2025-05-04 20:37:24,505 - INFO - 
+✅ 완료! 'bg3_투척바바_build_20250504.md' 파일에 BG3 투척바바 빌드 공략이 저장되었습니다.
+2025-05-04 20:37:24,505 - INFO - ✅ Ghost 블로그 포스팅 URL: https://globexfeed.com/p/89ecf165-c356-4e58-bf08-cdd2a13a3b16/
+2025-05-04 20:41:15,387 - INFO - 🔥 BG3 투척바바 빌드 공략 자동 생성기 시작!
+2025-05-04 20:41:15,401 - INFO - Perplexity API를 통해 투척바바 빌드 정보 수집 중...
+2025-05-04 20:41:56,133 - INFO - Perplexity API 원본 응답이 'perplexity_raw_response_20250504_204156.json' 파일에 저장되었습니다.
+2025-05-04 20:41:56,133 - INFO - Perplexity API 응답 성공
+2025-05-04 20:41:56,135 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:41:56,135 - INFO - Grok API를 통해 투척바바 한국어 블로그 포스트 생성 중...
+2025-05-04 20:41:56,135 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:42:57,260 - INFO - Grok API 원본 응답이 'grok_raw_response_20250504_204257.json' 파일에 저장되었습니다.
+2025-05-04 20:42:57,261 - INFO - Grok API 응답 상태 코드: 200
+2025-05-04 20:42:57,261 - INFO - Grok API 응답 구조 키: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-04 20:42:57,262 - INFO - 한국어 블로그 포스트 생성 완료!
+2025-05-04 20:42:57,262 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:42:57,266 - INFO - 추출된 스킬/아이템: 29개
+2025-05-04 20:42:57,266 - INFO - 추출된 영문 아이템 목록: Berserker, 1d8, Outlander, Athletics, STR, DEX, CON, INT, WIS, CHA, Frenzy, Frenzied Throw, Action Surge, Rage, Tavern Brawler, Dual Wielder, Returning Pike, Gloves of Uninhibited Kushigo, Ring of Flinging, Nyrulna, Helm of the Throwing King, Dwarven Thrower, Vest of Soul Rejuvenation, 1d6, 5, 10, Karlach, Cleric, Bless
+2025-05-04 20:42:57,266 - INFO - 29개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:42:57,266 - INFO - 'Berserker' 이미지 검색 중...
+2025-05-04 20:42:57,267 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Berserker
+2025-05-04 20:42:58,561 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/6/62/Class_Barbarian_Berserker_Badge_Icon.png/100px-Class_Barbarian_Berserker_Badge_Icon.png
+2025-05-04 20:42:58,562 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/6/68/Frenzy_Icon.webp/40px-Frenzy_Icon.webp.png
+2025-05-04 20:42:58,563 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/6/62/Class_Barbarian_Berserker_Badge_Icon.png/100px-Class_Barbarian_Berserker_Badge_Icon.png
+2025-05-04 20:42:58,564 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/6/62/Class_Barbarian_Berserker_Badge_Icon.png/100px-Class_Barbarian_Berserker_Badge_Icon.png
+2025-05-04 20:42:59,078 - INFO - 'Outlander' 이미지 검색 중...
+2025-05-04 20:42:59,078 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Outlander
+2025-05-04 20:43:00,360 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/b/bf/Background_Outlander_Icon.png/120px-Background_Outlander_Icon.png
+2025-05-04 20:43:00,360 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/0/00/Feather_Fall_Icon.webp/25px-Feather_Fall_Icon.webp.png
+2025-05-04 20:43:00,361 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/b/bf/Background_Outlander_Icon.png/120px-Background_Outlander_Icon.png
+2025-05-04 20:43:00,362 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/b/bf/Background_Outlander_Icon.png/120px-Background_Outlander_Icon.png
+2025-05-04 20:43:00,868 - INFO - 'Athletics' 이미지 검색 중...
+2025-05-04 20:43:00,868 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Athletics
+2025-05-04 20:43:02,278 - INFO - alt 속성으로 이미지 찾음: /w/images/3/30/Athletics_Icon.png
+2025-05-04 20:43:02,278 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/13/D20.png/23px-D20.png
+2025-05-04 20:43:02,280 - INFO - icon/spell src로 이미지 찾음: /w/images/3/30/Athletics_Icon.png
+2025-05-04 20:43:02,281 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/3/30/Athletics_Icon.png
+2025-05-04 20:43:02,783 - INFO - 'Frenzy' 이미지 검색 중...
+2025-05-04 20:43:02,783 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Frenzy
+2025-05-04 20:43:04,170 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/c/ce/Frenzy.webp/300px-Frenzy.webp.png
+2025-05-04 20:43:04,171 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/9/95/Rage_Impeded_Condition_Icon.webp/20px-Rage_Impeded_Condition_Icon.webp.png
+2025-05-04 20:43:04,172 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/9/95/Rage_Impeded_Condition_Icon.webp/20px-Rage_Impeded_Condition_Icon.webp.png
+2025-05-04 20:43:04,173 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/c/ce/Frenzy.webp/300px-Frenzy.webp.png
+2025-05-04 20:43:04,676 - INFO - 'Frenzied Throw' 이미지 검색 중...
+2025-05-04 20:43:04,676 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Frenzied_Throw
+2025-05-04 20:43:06,030 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Frenzied_Throw (상태 코드: 404)
+2025-05-04 20:43:06,030 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Frenzied
+2025-05-04 20:43:07,008 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Frenzied
+2025-05-04 20:43:07,519 - INFO - 'Action Surge' 이미지 검색 중...
+2025-05-04 20:43:07,519 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Action_Surge
+2025-05-04 20:43:08,757 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/f/f4/Action_Surge.webp/300px-Action_Surge.webp.png
+2025-05-04 20:43:08,757 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/f2/Action_Icon.png/23px-Action_Icon.png
+2025-05-04 20:43:08,758 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/f2/Action_Icon.png/23px-Action_Icon.png
+2025-05-04 20:43:08,758 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/f/f4/Action_Surge.webp/300px-Action_Surge.webp.png
+2025-05-04 20:43:09,274 - INFO - 'Rage' 이미지 검색 중...
+2025-05-04 20:43:09,274 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Rage
+2025-05-04 20:43:10,541 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:43:10,542 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:43:10,543 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:43:10,543 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/36/Rage_Boar_Icon.webp/25px-Rage_Boar_Icon.webp.png
+2025-05-04 20:43:11,060 - INFO - 'Tavern Brawler' 이미지 검색 중...
+2025-05-04 20:43:11,060 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Tavern_Brawler
+2025-05-04 20:43:12,296 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/0/0d/Tavern_Brawler.webp/300px-Tavern_Brawler.webp.png
+2025-05-04 20:43:12,298 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/4/43/Strength_Small_Icon.png/25px-Strength_Small_Icon.png
+2025-05-04 20:43:12,298 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/4/43/Strength_Small_Icon.png/25px-Strength_Small_Icon.png
+2025-05-04 20:43:12,299 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/0/0d/Tavern_Brawler.webp/300px-Tavern_Brawler.webp.png
+2025-05-04 20:43:12,801 - INFO - 'Dual Wielder' 이미지 검색 중...
+2025-05-04 20:43:12,801 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Dual_Wielder
+2025-05-04 20:43:13,834 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/6/67/Dual_Wielder.webp/300px-Dual_Wielder.webp.png
+2025-05-04 20:43:13,835 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/6/67/Dual_Wielder.webp/300px-Dual_Wielder.webp.png
+2025-05-04 20:43:14,341 - INFO - 'Returning Pike' 이미지 검색 중...
+2025-05-04 20:43:14,341 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Returning_Pike
+2025-05-04 20:43:16,311 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/5/5f/Pike_PlusOne_Icon.png/300px-Pike_PlusOne_Icon.png
+2025-05-04 20:43:16,311 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/0/0b/Piercing_Damage_Icon.png/20px-Piercing_Damage_Icon.png
+2025-05-04 20:43:16,312 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5f/Pike_PlusOne_Icon.png/300px-Pike_PlusOne_Icon.png
+2025-05-04 20:43:16,312 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/5/5f/Pike_PlusOne_Icon.png/300px-Pike_PlusOne_Icon.png
+2025-05-04 20:43:16,818 - INFO - 'Gloves of Uninhibited Kushigo' 이미지 검색 중...
+2025-05-04 20:43:16,819 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Gloves_of_Uninhibited_Kushigo
+2025-05-04 20:43:17,820 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/6/60/Gloves_of_Cinder_and_Sizzle_Icon.png/300px-Gloves_of_Cinder_and_Sizzle_Icon.png
+2025-05-04 20:43:17,822 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/6/68/FRWiki_Icon.png/25px-FRWiki_Icon.png
+2025-05-04 20:43:17,822 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/6/60/Gloves_of_Cinder_and_Sizzle_Icon.png/300px-Gloves_of_Cinder_and_Sizzle_Icon.png
+2025-05-04 20:43:17,823 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/6/60/Gloves_of_Cinder_and_Sizzle_Icon.png/300px-Gloves_of_Cinder_and_Sizzle_Icon.png
+2025-05-04 20:43:18,332 - INFO - 'Ring of Flinging' 이미지 검색 중...
+2025-05-04 20:43:18,332 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Ring_of_Flinging
+2025-05-04 20:43:19,326 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/da/Ring_C_Silver_A_Faded.png/300px-Ring_C_Silver_A_Faded.png
+2025-05-04 20:43:19,326 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/c/c4/Rings_Icon.png/25px-Rings_Icon.png
+2025-05-04 20:43:19,327 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5b/Description_Icon.png/24px-Description_Icon.png
+2025-05-04 20:43:19,328 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/da/Ring_C_Silver_A_Faded.png/300px-Ring_C_Silver_A_Faded.png
+2025-05-04 20:43:19,838 - INFO - 'Nyrulna' 이미지 검색 중...
+2025-05-04 20:43:19,838 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Nyrulna
+2025-05-04 20:43:21,140 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/3/35/Nyrulna_Icon.png/300px-Nyrulna_Icon.png
+2025-05-04 20:43:21,140 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/6/68/FRWiki_Icon.png/25px-FRWiki_Icon.png
+2025-05-04 20:43:21,141 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/3/35/Nyrulna_Icon.png/300px-Nyrulna_Icon.png
+2025-05-04 20:43:21,141 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/35/Nyrulna_Icon.png/300px-Nyrulna_Icon.png
+2025-05-04 20:43:21,659 - INFO - 'Helm of the Throwing King' 이미지 검색 중...
+2025-05-04 20:43:21,659 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Helm_of_the_Throwing_King
+2025-05-04 20:43:22,728 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Helm_of_the_Throwing_King (상태 코드: 404)
+2025-05-04 20:43:22,728 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Helm
+2025-05-04 20:43:23,958 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/3/32/Stunned_Condition_Icon.webp/40px-Stunned_Condition_Icon.webp.png
+2025-05-04 20:43:23,959 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/3/32/Stunned_Condition_Icon.webp/40px-Stunned_Condition_Icon.webp.png
+2025-05-04 20:43:23,959 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/32/Stunned_Condition_Icon.webp/40px-Stunned_Condition_Icon.webp.png
+2025-05-04 20:43:24,476 - INFO - 'Dwarven Thrower' 이미지 검색 중...
+2025-05-04 20:43:24,476 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Dwarven_Thrower
+2025-05-04 20:43:25,879 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/d1/Warhammer_PlusOne_Icon.png/300px-Warhammer_PlusOne_Icon.png
+2025-05-04 20:43:25,880 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/7d/Bludgeoning_Damage_Icon.png/20px-Bludgeoning_Damage_Icon.png
+2025-05-04 20:43:25,881 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/d/d1/Warhammer_PlusOne_Icon.png/300px-Warhammer_PlusOne_Icon.png
+2025-05-04 20:43:25,882 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/d1/Warhammer_PlusOne_Icon.png/300px-Warhammer_PlusOne_Icon.png
+2025-05-04 20:43:26,393 - INFO - 'Vest of Soul Rejuvenation' 이미지 검색 중...
+2025-05-04 20:43:26,393 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Vest_of_Soul_Rejuvenation
+2025-05-04 20:43:27,351 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/7/78/Vest_of_Soul_Rejuvenation_Icon.png/300px-Vest_of_Soul_Rejuvenation_Icon.png
+2025-05-04 20:43:27,352 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/6/68/FRWiki_Icon.png/25px-FRWiki_Icon.png
+2025-05-04 20:43:27,352 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/7/78/Vest_of_Soul_Rejuvenation_Icon.png/300px-Vest_of_Soul_Rejuvenation_Icon.png
+2025-05-04 20:43:27,353 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/7/78/Vest_of_Soul_Rejuvenation_Icon.png/300px-Vest_of_Soul_Rejuvenation_Icon.png
+2025-05-04 20:43:27,859 - INFO - 'Karlach' 이미지 검색 중...
+2025-05-04 20:43:27,860 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Karlach
+2025-05-04 20:43:29,683 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/b/b2/Portrait_Karlach.png/25px-Portrait_Karlach.png
+2025-05-04 20:43:29,685 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Generic_Fire_Icon.webp/25px-Generic_Fire_Icon.webp.png
+2025-05-04 20:43:29,688 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Generic_Fire_Icon.webp/25px-Generic_Fire_Icon.webp.png
+2025-05-04 20:43:29,690 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/b/b2/Portrait_Karlach.png/25px-Portrait_Karlach.png
+2025-05-04 20:43:30,202 - INFO - 'Cleric' 이미지 검색 중...
+2025-05-04 20:43:30,202 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Cleric
+2025-05-04 20:43:31,873 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/a/ac/Class_Cleric_Badge_Icon.png/100px-Class_Cleric_Badge_Icon.png
+2025-05-04 20:43:31,875 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/c/ca/Class_Cleric_Death_Badge_Icon.png/40px-Class_Cleric_Death_Badge_Icon.png
+2025-05-04 20:43:31,877 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/a/ac/Class_Cleric_Badge_Icon.png/100px-Class_Cleric_Badge_Icon.png
+2025-05-04 20:43:31,880 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/a/ac/Class_Cleric_Badge_Icon.png/100px-Class_Cleric_Badge_Icon.png
+2025-05-04 20:43:32,383 - INFO - 'Bless' 이미지 검색 중...
+2025-05-04 20:43:32,383 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Bless
+2025-05-04 20:43:33,392 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/1/14/Bless.webp/300px-Bless.webp.png
+2025-05-04 20:43:33,393 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/ba/Attack_Roll_Icon.png/25px-Attack_Roll_Icon.png
+2025-05-04 20:43:33,394 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/b/ba/Attack_Roll_Icon.png/25px-Attack_Roll_Icon.png
+2025-05-04 20:43:33,394 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/1/14/Bless.webp/300px-Bless.webp.png
+2025-05-04 20:43:33,906 - INFO - 17개의 이미지 URL을 추가했습니다.
+2025-05-04 20:43:33,906 - INFO - 블로그 포스트가 'bg3_투척바바_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:43:33,906 - INFO - Ghost 블로그에 포스팅 중...
+2025-05-04 20:43:33,914 - INFO - JWT 토큰 생성 완료: eyJhbGciOiJIUzI1NiIs...
+2025-05-04 20:43:33,915 - INFO - Ghost API 요청 URL: https://globexfeed.com/ghost/api/admin/posts/
+2025-05-04 20:43:34,716 - INFO - 응답 코드: 201
+2025-05-04 20:43:34,718 - INFO - Ghost 블로그 포스트가 성공적으로 생성되었습니다.
+2025-05-04 20:43:34,718 - INFO - 포스트 URL: https://globexfeed.com/p/fffd8e94-9bc2-48ee-b26b-6d9bb298af21/
+2025-05-04 20:43:34,719 - INFO - Ghost 블로그에 성공적으로 포스팅되었습니다: https://globexfeed.com/p/fffd8e94-9bc2-48ee-b26b-6d9bb298af21/
+2025-05-04 20:43:34,720 - INFO - 
+✅ 완료! 'bg3_투척바바_build_20250504.md' 파일에 BG3 투척바바 빌드 공략이 저장되었습니다.
+2025-05-04 20:43:34,720 - INFO - ✅ Ghost 블로그 포스팅 URL: https://globexfeed.com/p/fffd8e94-9bc2-48ee-b26b-6d9bb298af21/
+2025-05-04 20:52:48,689 - INFO - 🔥 BG3 생명권역 클레릭 빌드 공략 자동 생성기 시작!
+2025-05-04 20:52:48,690 - INFO - Perplexity API를 통해 생명권역 클레릭 빌드 정보 수집 중...
+2025-05-04 20:53:27,809 - INFO - Perplexity API 원본 응답이 'perplexity_raw_response_20250504_205327.json' 파일에 저장되었습니다.
+2025-05-04 20:53:27,809 - INFO - Perplexity API 응답 성공
+2025-05-04 20:53:27,811 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 20:53:27,811 - INFO - Grok API를 통해 생명권역 클레릭 한국어 블로그 포스트 생성 중...
+2025-05-04 20:53:27,812 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 20:54:38,787 - INFO - Grok API 원본 응답이 'grok_raw_response_20250504_205438.json' 파일에 저장되었습니다.
+2025-05-04 20:54:38,788 - INFO - Grok API 응답 상태 코드: 200
+2025-05-04 20:54:38,789 - INFO - Grok API 응답 구조 키: ['id', 'object', 'created', 'model', 'choices', 'usage', 'system_fingerprint']
+2025-05-04 20:54:38,790 - INFO - 한국어 블로그 포스트 생성 완료!
+2025-05-04 20:54:38,791 - INFO - 스킬 및 아이템 이미지 URL 추가 중...
+2025-05-04 20:54:38,793 - INFO - 추출된 스킬/아이템: 35개
+2025-05-04 20:54:38,794 - INFO - 추출된 영문 아이템 목록: STR, DEX, CON, INT, WIS, CHA, Hill Dwarf, Wood Half-Elf, Acolyte, Religion, Persuasion, Healing Word, Bless, Sanctuary, Shield of Faith, AC, Guidance, Aid, Zone of Truth, Spirit Guardians, Glyph of Warding, Divine Strike, Mass Healing Word, Resurrection, Divine Intervention, Life Domain, Starry Form, Hellrider's Pride, Ritual Axe, Reviving Hands, DC, Crown of the Runekeeper, Sacred Plate, Cloak of Displacement, Shield Bash
+2025-05-04 20:54:38,794 - INFO - 35개의 스킬/아이템을 찾았습니다.
+2025-05-04 20:54:38,794 - INFO - 'Hill Dwarf' 이미지 검색 중...
+2025-05-04 20:54:38,794 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Hill_Dwarf
+2025-05-04 20:54:40,261 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/5/5f/Creature_Speed_Icon.png/25px-Creature_Speed_Icon.png
+2025-05-04 20:54:40,261 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5f/Creature_Speed_Icon.png/25px-Creature_Speed_Icon.png
+2025-05-04 20:54:40,262 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/5/5f/Creature_Speed_Icon.png/25px-Creature_Speed_Icon.png
+2025-05-04 20:54:40,774 - INFO - 'Wood Half-Elf' 이미지 검색 중...
+2025-05-04 20:54:40,774 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Wood_Half-Elf
+2025-05-04 20:54:42,223 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/f/f4/Race_Wood_Half-Elf.png/100px-Race_Wood_Half-Elf.png
+2025-05-04 20:54:42,224 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/5/5f/Creature_Speed_Icon.png/25px-Creature_Speed_Icon.png
+2025-05-04 20:54:42,225 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5f/Creature_Speed_Icon.png/25px-Creature_Speed_Icon.png
+2025-05-04 20:54:42,227 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/f/f4/Race_Wood_Half-Elf.png/100px-Race_Wood_Half-Elf.png
+2025-05-04 20:54:42,742 - INFO - 'Acolyte' 이미지 검색 중...
+2025-05-04 20:54:42,744 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Acolyte
+2025-05-04 20:54:44,021 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/2/2f/Background_Acolyte_Icon.png/120px-Background_Acolyte_Icon.png
+2025-05-04 20:54:44,021 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/8/8b/Barbarian_Icon_Small.webp/20px-Barbarian_Icon_Small.webp.png
+2025-05-04 20:54:44,023 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/2/2f/Background_Acolyte_Icon.png/120px-Background_Acolyte_Icon.png
+2025-05-04 20:54:44,024 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/2f/Background_Acolyte_Icon.png/120px-Background_Acolyte_Icon.png
+2025-05-04 20:54:44,526 - INFO - 'Religion' 이미지 검색 중...
+2025-05-04 20:54:44,526 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Religion
+2025-05-04 20:54:45,827 - INFO - alt 속성으로 이미지 찾음: /w/images/1/1a/Religion_Icon.png
+2025-05-04 20:54:45,829 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/13/D20.png/23px-D20.png
+2025-05-04 20:54:45,829 - INFO - icon/spell src로 이미지 찾음: /w/images/1/1a/Religion_Icon.png
+2025-05-04 20:54:45,831 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/1/1a/Religion_Icon.png
+2025-05-04 20:54:46,348 - INFO - 'Persuasion' 이미지 검색 중...
+2025-05-04 20:54:46,348 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Persuasion
+2025-05-04 20:54:47,802 - INFO - alt 속성으로 이미지 찾음: /w/images/f/f7/Persuasion_Icon.png
+2025-05-04 20:54:47,803 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/13/D20.png/23px-D20.png
+2025-05-04 20:54:47,806 - INFO - icon/spell src로 이미지 찾음: /w/images/f/f7/Persuasion_Icon.png
+2025-05-04 20:54:47,806 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/f/f7/Persuasion_Icon.png
+2025-05-04 20:54:48,309 - INFO - 'Healing Word' 이미지 검색 중...
+2025-05-04 20:54:48,310 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Healing_Word
+2025-05-04 20:54:49,365 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:54:49,367 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:54:49,367 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:54:49,368 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/db/Healing_Word.webp/300px-Healing_Word.webp.png
+2025-05-04 20:54:49,875 - INFO - 'Bless' 이미지 검색 중...
+2025-05-04 20:54:49,875 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Bless
+2025-05-04 20:54:50,910 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/1/14/Bless.webp/300px-Bless.webp.png
+2025-05-04 20:54:50,912 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/ba/Attack_Roll_Icon.png/25px-Attack_Roll_Icon.png
+2025-05-04 20:54:50,913 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/b/ba/Attack_Roll_Icon.png/25px-Attack_Roll_Icon.png
+2025-05-04 20:54:50,913 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/1/14/Bless.webp/300px-Bless.webp.png
+2025-05-04 20:54:51,417 - INFO - 'Sanctuary' 이미지 검색 중...
+2025-05-04 20:54:51,417 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Sanctuary
+2025-05-04 20:54:52,766 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/3/33/Sanctuary.webp/300px-Sanctuary.webp.png
+2025-05-04 20:54:52,766 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/c/c9/Bonus_Action_Icon.png/34px-Bonus_Action_Icon.png
+2025-05-04 20:54:52,768 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/c/c9/Bonus_Action_Icon.png/34px-Bonus_Action_Icon.png
+2025-05-04 20:54:52,768 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/3/33/Sanctuary.webp/300px-Sanctuary.webp.png
+2025-05-04 20:54:53,276 - INFO - 'Shield of Faith' 이미지 검색 중...
+2025-05-04 20:54:53,276 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Shield_of_Faith
+2025-05-04 20:54:54,264 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:54:54,264 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:54:54,265 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/a/ae/Armour_Class_Icon.png/25px-Armour_Class_Icon.png
+2025-05-04 20:54:54,266 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/4/46/Shield_of_Faith.webp/300px-Shield_of_Faith.webp.png
+2025-05-04 20:54:54,777 - INFO - 'Guidance' 이미지 검색 중...
+2025-05-04 20:54:54,777 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Guidance
+2025-05-04 20:54:55,733 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/8/8b/Guidance.webp/300px-Guidance.webp.png
+2025-05-04 20:54:55,735 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/13/D20.png/23px-D20.png
+2025-05-04 20:54:55,736 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/f2/Action_Icon.png/34px-Action_Icon.png
+2025-05-04 20:54:55,737 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/8/8b/Guidance.webp/300px-Guidance.webp.png
+2025-05-04 20:54:56,242 - INFO - 'Zone of Truth' 이미지 검색 중...
+2025-05-04 20:54:56,243 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Zone_of_Truth
+2025-05-04 20:54:57,259 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Zone_of_Truth (상태 코드: 404)
+2025-05-04 20:54:57,260 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Zone
+2025-05-04 20:54:58,234 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Zone
+2025-05-04 20:54:58,740 - INFO - 'Spirit Guardians' 이미지 검색 중...
+2025-05-04 20:54:58,741 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Spirit_Guardians
+2025-05-04 20:54:59,720 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/2/2f/Spirit_Guardians.webp/300px-Spirit_Guardians.webp.png
+2025-05-04 20:54:59,721 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/25px-Radiant_Damage_Icon.png
+2025-05-04 20:54:59,722 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/7/78/Radiant_Damage_Icon.png/25px-Radiant_Damage_Icon.png
+2025-05-04 20:54:59,723 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/2/2f/Spirit_Guardians.webp/300px-Spirit_Guardians.webp.png
+2025-05-04 20:55:00,237 - INFO - 'Glyph of Warding' 이미지 검색 중...
+2025-05-04 20:55:00,237 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Glyph_of_Warding
+2025-05-04 20:55:01,199 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/9/9b/Glyph_of_Warding.webp/300px-Glyph_of_Warding.webp.png
+2025-05-04 20:55:01,202 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:55:01,203 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:55:01,204 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/9/9b/Glyph_of_Warding.webp/300px-Glyph_of_Warding.webp.png
+2025-05-04 20:55:01,720 - INFO - 'Divine Strike' 이미지 검색 중...
+2025-05-04 20:55:01,720 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Divine_Strike
+2025-05-04 20:55:02,998 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/d7/Divine_Strike_Radiant_Melee_Icon.webp/40px-Divine_Strike_Radiant_Melee_Icon.webp.png
+2025-05-04 20:55:02,999 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/9/98/Class_Cleric_Life_Badge_Icon.png/40px-Class_Cleric_Life_Badge_Icon.png
+2025-05-04 20:55:03,006 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/9/98/Class_Cleric_Life_Badge_Icon.png/40px-Class_Cleric_Life_Badge_Icon.png
+2025-05-04 20:55:03,008 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/d7/Divine_Strike_Radiant_Melee_Icon.webp/40px-Divine_Strike_Radiant_Melee_Icon.webp.png
+2025-05-04 20:55:03,511 - INFO - 'Mass Healing Word' 이미지 검색 중...
+2025-05-04 20:55:03,511 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Mass_Healing_Word
+2025-05-04 20:55:04,476 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/d9/Mass_Healing_Word.webp/300px-Mass_Healing_Word.webp.png
+2025-05-04 20:55:04,477 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:55:04,477 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:55:04,479 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/d9/Mass_Healing_Word.webp/300px-Mass_Healing_Word.webp.png
+2025-05-04 20:55:04,989 - INFO - 'Resurrection' 이미지 검색 중...
+2025-05-04 20:55:04,989 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Resurrection
+2025-05-04 20:55:06,454 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/d/de/Scroll_of_Revivify_Faded.png/300px-Scroll_of_Revivify_Faded.png
+2025-05-04 20:55:06,455 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/1/1f/Scrolls_Icon.png/24px-Scrolls_Icon.png
+2025-05-04 20:55:06,456 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5b/Description_Icon.png/24px-Description_Icon.png
+2025-05-04 20:55:06,456 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/d/de/Scroll_of_Revivify_Faded.png/300px-Scroll_of_Revivify_Faded.png
+2025-05-04 20:55:06,964 - INFO - 'Divine Intervention' 이미지 검색 중...
+2025-05-04 20:55:06,964 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Divine_Intervention
+2025-05-04 20:55:08,226 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/5/5a/Divine_Intervention_Sunder_the_Heretical.webp/300px-Divine_Intervention_Sunder_the_Heretical.webp.png
+2025-05-04 20:55:08,227 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:55:08,228 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/fd/Prerequisite_Icon.png/25px-Prerequisite_Icon.png
+2025-05-04 20:55:08,229 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/5/5a/Divine_Intervention_Sunder_the_Heretical.webp/300px-Divine_Intervention_Sunder_the_Heretical.webp.png
+2025-05-04 20:55:08,732 - INFO - 'Life Domain' 이미지 검색 중...
+2025-05-04 20:55:08,732 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Life_Domain
+2025-05-04 20:55:10,031 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/9/98/Class_Cleric_Life_Badge_Icon.png/100px-Class_Cleric_Life_Badge_Icon.png
+2025-05-04 20:55:10,032 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/b7/Heavy_Armour_Icon.png/25px-Heavy_Armour_Icon.png
+2025-05-04 20:55:10,033 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/9/98/Class_Cleric_Life_Badge_Icon.png/100px-Class_Cleric_Life_Badge_Icon.png
+2025-05-04 20:55:10,034 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/9/98/Class_Cleric_Life_Badge_Icon.png/100px-Class_Cleric_Life_Badge_Icon.png
+2025-05-04 20:55:10,552 - INFO - 'Starry Form' 이미지 검색 중...
+2025-05-04 20:55:10,552 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Starry_Form
+2025-05-04 20:55:12,130 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/7/79/Starry_Form.webp/300px-Starry_Form.webp.png
+2025-05-04 20:55:12,130 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/b/b6/Wild_Shape_Charges_Icon.png/20px-Wild_Shape_Charges_Icon.png
+2025-05-04 20:55:12,131 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/b/b6/Wild_Shape_Charges_Icon.png/20px-Wild_Shape_Charges_Icon.png
+2025-05-04 20:55:12,132 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/7/79/Starry_Form.webp/300px-Starry_Form.webp.png
+2025-05-04 20:55:12,643 - INFO - 'Hellrider's Pride' 이미지 검색 중...
+2025-05-04 20:55:12,643 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Hellrider%27s_Pride
+2025-05-04 20:55:13,590 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/4/47/Gloves_Metal_1_Faded.png/300px-Gloves_Metal_1_Faded.png
+2025-05-04 20:55:13,590 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/fa/Gloves_Icon.png/25px-Gloves_Icon.png
+2025-05-04 20:55:13,591 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5b/Description_Icon.png/24px-Description_Icon.png
+2025-05-04 20:55:13,592 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/4/47/Gloves_Metal_1_Faded.png/300px-Gloves_Metal_1_Faded.png
+2025-05-04 20:55:14,104 - INFO - 'Ritual Axe' 이미지 검색 중...
+2025-05-04 20:55:14,104 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Ritual_Axe
+2025-05-04 20:55:15,060 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/f/f4/Handaxe_PlusOne_Icon.png/300px-Handaxe_PlusOne_Icon.png
+2025-05-04 20:55:15,061 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/f/f0/Slashing_Damage_Icon.png/20px-Slashing_Damage_Icon.png
+2025-05-04 20:55:15,062 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/f/f4/Handaxe_PlusOne_Icon.png/300px-Handaxe_PlusOne_Icon.png
+2025-05-04 20:55:15,063 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/f/f4/Handaxe_PlusOne_Icon.png/300px-Handaxe_PlusOne_Icon.png
+2025-05-04 20:55:15,574 - INFO - 'Reviving Hands' 이미지 검색 중...
+2025-05-04 20:55:15,574 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Reviving_Hands
+2025-05-04 20:55:16,498 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Reviving_Hands (상태 코드: 404)
+2025-05-04 20:55:16,498 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Reviving
+2025-05-04 20:55:17,450 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Reviving
+2025-05-04 20:55:17,954 - INFO - 'Crown of the Runekeeper' 이미지 검색 중...
+2025-05-04 20:55:17,954 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Crown_of_the_Runekeeper
+2025-05-04 20:55:18,987 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Crown_of_the_Runekeeper (상태 코드: 404)
+2025-05-04 20:55:18,987 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Crown
+2025-05-04 20:55:20,143 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Crown
+2025-05-04 20:55:20,660 - INFO - 'Sacred Plate' 이미지 검색 중...
+2025-05-04 20:55:20,661 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Sacred_Plate
+2025-05-04 20:55:21,853 - WARNING - 위키 페이지를 찾을 수 없습니다: https://bg3.wiki/wiki/Sacred_Plate (상태 코드: 404)
+2025-05-04 20:55:21,854 - INFO - 대체 위키 페이지 요청: https://bg3.wiki/wiki/Sacred
+2025-05-04 20:55:22,860 - WARNING - 대체 위키 페이지도 찾을 수 없습니다: https://bg3.wiki/wiki/Sacred
+2025-05-04 20:55:23,365 - INFO - 'Cloak of Displacement' 이미지 검색 중...
+2025-05-04 20:55:23,365 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Cloak_of_Displacement
+2025-05-04 20:55:24,543 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/f/fe/Cloak_of_Displacement_Faded.png/300px-Cloak_of_Displacement_Faded.png
+2025-05-04 20:55:24,544 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/a/aa/Cloaks_Icon.png/25px-Cloaks_Icon.png
+2025-05-04 20:55:24,545 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/5/5b/Description_Icon.png/24px-Description_Icon.png
+2025-05-04 20:55:24,546 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/f/fe/Cloak_of_Displacement_Faded.png/300px-Cloak_of_Displacement_Faded.png
+2025-05-04 20:55:25,059 - INFO - 'Shield Bash' 이미지 검색 중...
+2025-05-04 20:55:25,059 - INFO - 위키 페이지 요청: https://bg3.wiki/wiki/Shield_Bash
+2025-05-04 20:55:26,024 - INFO - alt 속성으로 이미지 찾음: /w/images/thumb/9/93/Shield_Bash.webp/300px-Shield_Bash.webp.png
+2025-05-04 20:55:26,025 - INFO - icon 클래스로 이미지 찾음: /w/images/thumb/8/8e/Prone_Condition_Icon.webp/25px-Prone_Condition_Icon.webp.png
+2025-05-04 20:55:26,026 - INFO - icon/spell src로 이미지 찾음: /w/images/thumb/8/8e/Prone_Condition_Icon.webp/25px-Prone_Condition_Icon.webp.png
+2025-05-04 20:55:26,032 - INFO - 선택된 이미지 URL: https://bg3.wiki/w/images/thumb/9/93/Shield_Bash.webp/300px-Shield_Bash.webp.png
+2025-05-04 20:55:26,549 - INFO - 21개의 이미지 URL을 추가했습니다.
+2025-05-04 20:55:26,550 - INFO - 문장 끝 마침표 뒤에 줄바꿈 추가 중...
+2025-05-04 20:55:26,557 - INFO - 문장 끝 마침표 뒤 줄바꿈 처리 완료
+2025-05-04 20:55:26,558 - INFO - 블로그 포스트가 'bg3_생명권역_클레릭_build_20250504.md' 파일로 저장되었습니다.
+2025-05-04 20:55:26,558 - INFO - Ghost 블로그에 포스팅 중...
+2025-05-04 20:55:26,559 - INFO - JWT 토큰 생성 완료: eyJhbGciOiJIUzI1NiIs...
+2025-05-04 20:55:26,561 - INFO - Ghost API 요청 URL: https://globexfeed.com/ghost/api/admin/posts/
+2025-05-04 20:55:27,500 - INFO - 응답 코드: 201
+2025-05-04 20:55:27,501 - INFO - Ghost 블로그 포스트가 성공적으로 생성되었습니다.
+2025-05-04 20:55:27,501 - INFO - 포스트 URL: https://globexfeed.com/p/3f677e80-a49e-435e-93fa-8b6765ee9fa2/
+2025-05-04 20:55:27,503 - INFO - Ghost 블로그에 성공적으로 포스팅되었습니다: https://globexfeed.com/p/3f677e80-a49e-435e-93fa-8b6765ee9fa2/
+2025-05-04 20:55:27,504 - INFO - 
+✅ 완료! 'bg3_생명권역_클레릭_build_20250504.md' 파일에 BG3 생명권역 클레릭 빌드 공략이 저장되었습니다.
+2025-05-04 20:55:27,504 - INFO - ✅ Ghost 블로그 포스팅 URL: https://globexfeed.com/p/3f677e80-a49e-435e-93fa-8b6765ee9fa2/
+2025-05-04 22:58:15,580 - INFO - 🔥 BG3 투척바바 빌드 공략 자동 생성기 시작!
+2025-05-04 22:58:15,580 - INFO - 🔍 빌드 정보 수집 단계 시작...
+2025-05-04 22:58:15,580 - INFO - Perplexity API를 통해 투척바바 빌드 정보 수집 중...
+2025-05-04 22:58:15,580 - INFO - Perplexity API 요청 중... (모델: sonar-reasoning-pro)
+2025-05-04 22:58:51,934 - INFO - API 응답이 'perplexity_raw_response_20250504_225851.json' 파일에 저장되었습니다.
+2025-05-04 22:58:51,934 - INFO - Perplexity API 응답 성공
+2025-05-04 22:58:51,937 - INFO - 빌드 정보 성공적으로 수집 완료!
+2025-05-04 22:58:51,937 - INFO - 🌐 한글 번역 및 포스트 생성 단계 시작...
+2025-05-04 22:58:51,937 - INFO - Grok API를 통해 투척바바 한국어 블로그 포스트 생성 중...
+2025-05-04 22:58:51,937 - INFO - Grok API로 한국어 번역 시도...
+2025-05-04 22:58:51,937 - INFO - Grok API 요청 중...
