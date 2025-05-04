@@ -5,15 +5,15 @@ import time
 import jwt
 import re
 from typing import Dict, Any, Optional, List, Union
-from .utils import logger
+from .utils import logger, env_vars
 
 class GhostAPI:
     def __init__(self, api_url=None, admin_api_key=None, integration_id=None):
         """Ghost API 클래스 초기화"""
         # Ghost API 구성
-        self.api_url = api_url or "https://globexfeed.com/ghost"
-        self.admin_api_key = admin_api_key or "67deb866ce5a16c2cac23f08:a785936c8fb3ef3a1c87eb513f5763afe4baf242b1f02feab6f5940a09fe76d6"
-        self.integration_id = integration_id or "67deb866ce5a16c2cac23f05"
+        self.api_url = api_url or env_vars.get('GHOST_ADMIN_API_URL')
+        self.admin_api_key = admin_api_key or env_vars.get('GHOST_API_KEY')
+        self.integration_id = integration_id or env_vars.get('GHOST_INTEGRATION_ID')
         self.version = "admin"
         
         # API 키 분리

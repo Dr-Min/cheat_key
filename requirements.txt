@@ -11,4 +11,7 @@ pyjwt>=2.4.0
 python-dateutil>=2.8.2
 
 # API 응답 처리
-urllib3>=1.26.12 
+urllib3>=1.26.12
+
+# 환경변수 로드
+python-dotenv>=1.0.0 

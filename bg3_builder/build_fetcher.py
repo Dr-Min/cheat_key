@@ -1,11 +1,11 @@
 import requests
 import time
 import json
-from .utils import logger, save_json_response
+from .utils import logger, save_json_response, env_vars
 
 # API 키 설정
-PERPLEXITY_API_KEY = "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"
-GROK_API_KEY = "xai-6DI6wTOMaXvzXDOQCYwxW44tCXzmE9R2dvCCSrswR8XZb2dclfhme8laLwC62D5BF9pSuYU7YwJMbSMK"
+PERPLEXITY_API_KEY = env_vars.get('PERPLEXITY_API_KEY')
+GROK_API_KEY = env_vars.get('GROK_API_KEY')
 
 # API 엔드포인트
 PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
