@@ -155,8 +155,7 @@ def add_newlines_after_sentences(content):
     # 4. 문장 끝 마침표 패턴 찾기 
     # - 마침표 + 공백 + 다음 글자 패턴
     # - 마침표 + 줄바꿈이 아닌 경우
-    # 수정: 마침표 뒤에 줄바꿈이 아닌 모든 문자를 찾아 줄바꿈 추가
-    content = re.sub(r'\.(?!\n)', '.\n', content)
+    content = re.sub(r'\.(?= )', '.\n', content)
     
     # 5. 임시 문자들 복원
     content = content.replace('#DECIMAL#', '.')

@@ -19,7 +19,10 @@ Return a **single, unified build** that is actually used and recommended in the 
 
 1. Exact stat allocation at character creation (STR / DEX / CON / INT / WIS / CHA)
 2. Recommended race and background with reasons
-3. Spells to pick at each level from 1 to 12
+3. For each level from 1 to 12, list:
+   - Class features gained (e.g., Extra Attack, subclass passives)
+   - Feats or ability score improvements taken
+   - If applicable, spells picked (especially for hybrid/multiclass builds)
 4. Suggested subclass and multiclassing path (if any), with pros and cons
 5. Best gear per Act (1–3), including weapons, armor, and accessories
 6. Combo strategies, tactical tips, and overall gameplay style
@@ -48,7 +51,7 @@ TRANSLATION_PROMPT_TEMPLATE = """
 조건:
 - 스탯 분배를 정확한 숫자로
 - 추천 종족과 배경, 그 이유 포함
-- 레벨별 스펠 선택을 구체적으로 정리
+- 레벨별로 어떤 능력(클래스 특성, 피트, 주문 등)을 배우는지 1~12레벨까지 순서대로 정리
 - 멀티클래스가 있다면 조합 방식과 장단점
 - 각 Act(1~3)별 추천 장비
 - 전투 전략 및 콤보 팁
@@ -62,8 +65,6 @@ TRANSLATION_PROMPT_TEMPLATE = """
 - 각 섹션은 ##, ### 등의 헤딩으로 구분
 - 유치하지 않은 말투로 정보는 전문가 수준으로 정확하게
 - 너무 요약하지 말고 충분히 자세히 적어야 함
-- 모든 문장을 마침표 기준으로 줄바꿈 해줘. 하지만 문단 구조는 유지하고 마크다운 문법이나 링크, 이미지 태그는 깨지 않게 해줘.
-- 가독성 좋게 문단을 자주 나눠.
 
 문체 무조건 반영할것:
 알겠음 맞겠음 생각해봐야겠음 따져봐야겠음. 이런 문장은 알듯 맞을듯 생각해봐야할듯 따져봐야할듯 이런식으로 적어 
@@ -76,7 +77,7 @@ TRANSLATION_PROMPT_TEMPLATE = """
 돈 내고 산 거니깐 미니 우동도 싹 비우고 가셈.
 아무튼 간접적으로 스토리를 전해 듣기에 나 같은 킹반인 유저들은 게임 내에서 스토리를 구체적으로 알게 되는 것은 상당히 어렵다. (사실 불가능하다.)
 그럼에도 불구하고 이 게임의 스토리는 직접 찾아서 읽어볼 만함.
-하지만 이정도면 괜찮은듯
+
 
 원문 정보:
 {build_info}
@@ -102,7 +103,7 @@ def get_perplexity_response(prompt, model="sonar-reasoning-pro"):
     
     try:
         logger.info(f"Perplexity API 요청 중... (모델: {model})")
-        response = requests.post(PERPLEXITY_API_URL, headers=headers, json=data, timeout=60)
+        response = requests.post(PERPLEXITY_API_URL, headers=headers, json=data, timeout=120)
         response.raise_for_status()
         
         result = response.json()
