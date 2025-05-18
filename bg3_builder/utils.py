@@ -6,30 +6,6 @@ from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
 
-# 환경변수 로드
-def load_env_vars():
-    """환경변수(.env 파일) 로드"""
-    dotenv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
-    load_dotenv(dotenv_path)
-    
-    # 필수 환경변수 체크
-    required_vars = [
-        'PERPLEXITY_API_KEY',
-        'GROK_API_KEY',
-        'GHOST_ADMIN_API_URL',
-        'GHOST_API_KEY',
-        'GHOST_INTEGRATION_ID'
-    ]
-    
-    missing_vars = [var for var in required_vars if not os.getenv(var)]
-    if missing_vars:
-        raise EnvironmentError(f"다음 환경변수가 설정되지 않았습니다: {', '.join(missing_vars)}")
-    
-    return {var: os.getenv(var) for var in required_vars}
-
-# 환경변수 로드 실행
-env_vars = load_env_vars()
-
 # 로깅 설정
 def setup_logging(log_file='bg3_automation.log', level=logging.INFO):
     """로깅 설정"""
@@ -45,6 +21,51 @@ def setup_logging(log_file='bg3_automation.log', level=logging.INFO):
 
 # 기본 로거 설정
 logger = setup_logging()
+
+# 환경변수 로드
+def load_env_vars():
+    """환경변수(.env 파일) 로드"""
+    # 방법 1: 현재 작업 디렉토리에서 .env 파일 찾기
+    dotenv_path = os.path.join(os.getcwd(), '.env')
+    
+    # 방법 2: 기존 경로 계산 방식 (상위 디렉토리)
+    alt_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+    
+    # 두 경로 모두 확인
+    if os.path.exists(dotenv_path):
+        logger.info(f".env 파일 로드: {dotenv_path}")
+        load_dotenv(dotenv_path, encoding="utf-8-sig")  # BOM 처리를 위한 encoding 추가
+    elif os.path.exists(alt_path):
+        logger.info(f".env 파일 로드: {alt_path}")
+        load_dotenv(alt_path, encoding="utf-8-sig")  # BOM 처리를 위한 encoding 추가
+    else:
+        logger.warning(f".env 파일을 찾을 수 없습니다. 다음 경로에서 확인: {dotenv_path}, {alt_path}")
+    
+    # 필수 환경변수 체크
+    required_vars = [
+        'PERPLEXITY_API_KEY',
+        'GROK_API_KEY',
+        'GHOST_ADMIN_API_URL',
+        'GHOST_API_KEY',
+        'GHOST_INTEGRATION_ID'
+    ]
+    
+    # 환경변수 값 디버깅
+    for var in required_vars:
+        value = os.getenv(var)
+        if value:
+            logger.debug(f"환경변수 '{var}' 로드됨: {value[:5]}...")
+        else:
+            logger.warning(f"환경변수 '{var}'를 찾을 수 없습니다.")
+    
+    missing_vars = [var for var in required_vars if not os.getenv(var)]
+    if missing_vars:
+        raise EnvironmentError(f"다음 환경변수가 설정되지 않았습니다: {', '.join(missing_vars)}")
+    
+    return {var: os.getenv(var) for var in required_vars}
+
+# 환경변수 로드 실행
+env_vars = load_env_vars()
 
 def save_json_response(data, prefix="api_response"):
     """API 응답을 JSON 파일로 저장"""

@@ -13,9 +13,9 @@ logger = logging.getLogger(__name__)
 class GhostAPI:
     def __init__(self, api_url=None, admin_api_key=None, integration_id=None):
         # Ghost API 구성
-        self.api_url = api_url or "https://globexfeed.com/ghost"
-        self.admin_api_key = admin_api_key or "67deb866ce5a16c2cac23f08:a785936c8fb3ef3a1c87eb513f5763afe4baf242b1f02feab6f5940a09fe76d6"
-        self.integration_id = integration_id or "67deb866ce5a16c2cac23f05"
+        self.api_url = api_url or "https://ko.globexfeed.com"
+        self.admin_api_key = admin_api_key or "6821c76cd1a15ea6851d6707:c76767c8b224d33ac08559b4e8adc25d2d4466747c2c3c6976bbc98513363907"
+        self.integration_id = integration_id or "6821c76cd1a15ea6851d6704"
         self.version = "admin"
         
         # API 키 분리
@@ -72,7 +72,7 @@ class GhostAPI:
                    is_markdown: bool = True) -> Dict[str, Any]:
         """Ghost API를 사용하여 새 포스트를 생성합니다."""
         # Ghost Admin API 엔드포인트
-        url = f"{self.api_url}/api/{self.version}/posts/"
+        url = f"{self.api_url}/ghost/api/{self.version}/posts/"
         
         # JWT 토큰 생성
         token = self._create_jwt_token()
