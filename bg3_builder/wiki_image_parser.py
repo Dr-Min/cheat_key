@@ -188,10 +188,13 @@ def insert_images_to_markdown(content):
     inserted_images = set()  # 중복 삽입 방지를 위한 집합
     
     for line in lines:
-        new_content.append(line)
+        line_has_image = False
         
         # 현재 라인에서 패턴 매칭
         for pattern, extract_func in patterns:
+            if line_has_image:
+                break
+                
             for match in re.finditer(pattern, line):
                 term = extract_func(match)
                 
@@ -202,20 +205,29 @@ def insert_images_to_markdown(content):
                 # 해당 단어가 이미지 URL 딕셔너리에 있고 아직 삽입되지 않았으면
                 if term in item_image_urls and term not in inserted_images:
                     img_url = item_image_urls[term]
-                    # 이미지 마크다운 추가
-                    img_markdown = f"![{term} 아이콘]({img_url})"
+                    # 수정된 이미지 태그 (HTML 태그 사용)
+                    img_markdown = f"<img src=\"{img_url}\" alt=\"{term}\" width=\"100\">  "
+                    
+                    # 먼저 이미지를 추가하고, 그 다음에 원래 라인을 추가
                     new_content.append(img_markdown)
+                    new_content.append(line)
+                    
                     inserted_images.add(term)  # 삽입 완료 표시
-                    break  # 한 줄에 하나의 이미지만 삽입
+                    line_has_image = True  # 이 라인에 이미지가 추가되었음을 표시
+                    break
+        
+        # 이미지가 추가되지 않은 경우에만 라인 추가
+        if not line_has_image:
+            new_content.append(line)
     
     logger.info(f"{len(inserted_images)}개의 이미지 URL을 추가했습니다.")
     
     # 최종 마크다운 생성
     final_content = '\n'.join(new_content)
     
-    # 고정 이미지를 본문 최상단에 추가
+    # 고정 이미지를 본문 최상단에 추가 (HTML 태그 사용)
     bg3_header_image = "https://i.namu.wiki/i/IxWGCIu4G78HZv1d2AU_C5taEO8i-iT_aEbh5YbPAz73yIS3gFGB-Fj6EvL4Z-jmjcFIvWhr2XOxN0-sdmH31g.webp"
-    header_image_markdown = f"![BG3 헤더 이미지]({bg3_header_image})\n\n"
+    header_image_markdown = f"<img src=\"{bg3_header_image}\" alt=\"BG3 헤더 이미지\" width=\"100%\">\n\n"
     
     # 마크다운 첫 번째 제목 줄 찾기
     first_heading_match = re.search(r'^#\s+.*$', final_content, re.MULTILINE)
