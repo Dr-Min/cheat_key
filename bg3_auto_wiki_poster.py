@@ -9,6 +9,7 @@ import os
 import re
 import argparse
 import time
+import glob
 from datetime import datetime
 
 # bg3_builder 패키지 모듈 가져오기
@@ -18,6 +19,7 @@ from bg3_builder.wiki_image_parser import insert_images_to_markdown
 from bg3_builder.youtube_fetcher import add_youtube_thumbnail_to_markdown
 from bg3_builder.markdown_inserter import enhance_markdown_content
 from bg3_builder.ghost_uploader import post_to_ghost_blog
+from bg3_builder.simple_perplexity_extractor import process_simple_perplexity_images
 
 # 로거 설정
 logger = setup_logging(level='INFO')
@@ -42,6 +44,15 @@ def extract_title(content):
     """마크다운 내용에서 제목 추출"""
     title_match = re.search(r'^# (.*?)$', content, re.MULTILINE)
     return title_match.group(1) if title_match else None
+
+def find_latest_perplexity_file():
+    """가장 최근의 Perplexity 파일 찾기"""
+    perplexity_files = glob.glob("perplexity_raw_response_*.json")
+    if not perplexity_files:
+        return None
+    # 파일명의 타임스탬프 기준으로 정렬하여 가장 최근 파일 반환
+    perplexity_files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+    return perplexity_files[0]
 
 def automate_build_guide(build_name, output_dir=None, post_to_blog=True, test_mode=False):
     """빌드 가이드 자동 생성 프로세스"""
@@ -91,9 +102,19 @@ def automate_build_guide(build_name, output_dir=None, post_to_blog=True, test_mo
         logger.info("💪 콘텐츠 강화 단계 시작...")
         enhanced_content = enhance_markdown_content(korean_blog_post, build_name)
         
-        # 5단계: 이미지 삽입 (위키 이미지, 나무위키 헤더 등)
-        logger.info("🖼️ 이미지 추가 단계 시작...")
-        content_with_images = insert_images_to_markdown(enhanced_content)
+        # 5단계: 새로운 간단한 이미지 시스템 사용
+        logger.info("🖼️ 새로운 간단한 이미지 시스템으로 이미지 추가...")
+        if not test_mode:
+            # 가장 최근의 Perplexity 파일 찾기
+            perplexity_file = find_latest_perplexity_file()
+            if perplexity_file:
+                logger.info(f"📁 Perplexity 파일 발견: {perplexity_file}")
+                content_with_images = process_simple_perplexity_images(enhanced_content, perplexity_file)
+            else:
+                logger.warning("❌ Perplexity 파일을 찾을 수 없어 기존 방식으로 이미지 처리...")
+                content_with_images = insert_images_to_markdown(enhanced_content)
+        else:
+            content_with_images = enhanced_content
         
         # 6단계: YouTube 썸네일 추가
         logger.info("📺 YouTube 썸네일 추가 단계 시작...")

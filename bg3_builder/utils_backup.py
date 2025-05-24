@@ -67,16 +67,7 @@ def load_env_vars():
 # 환경변수 로드 실행
 env_vars = load_env_vars()
 
-def save_json_response(data, prefix="api_response"):
-    """API 응답을 JSON 파일로 저장"""
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"{prefix}_{timestamp}.json"
-    
-    with open(filename, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-    
-    logger.info(f"API 응답이 '{filename}' 파일에 저장되었습니다.")
-    return filename
+def save_json_response(data, prefix="api_response"):    """API 응답을 JSON 파일로 저장"""    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")    filename = f"{prefix}_{timestamp}.json"        with open(filename, "w", encoding="utf-8") as f:        json.dump(data, f, ensure_ascii=False, indent=2)        logger.info(f"API 응답이 '{filename}' 파일에 저장되었습니다.")    return filenamedef save_build_data(build_name, english_info, korean_info, extracted_terms=None):    """빌드 정보를 구조화된 형태로 저장"""    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")    filename = f"build_data_{build_name.replace(' ', '_')}_{timestamp}.json"        build_data = {        "build_name": build_name,        "timestamp": timestamp,        "english_build_info": english_info,        "korean_blog_post": korean_info,        "extracted_terms": extracted_terms or {},        "metadata": {            "source": "perplexity_api",             "translator": "grok_api",            "version": "2.0_with_term_extraction"        }    }        try:        with open(filename, 'w', encoding='utf-8') as f:            json.dump(build_data, f, ensure_ascii=False, indent=2)        logger.info(f"통합 빌드 데이터가 {filename}에 저장되었습니다.")        return filename    except Exception as e:        logger.error(f"빌드 데이터 저장 중 오류: {e}")        return None
 
 def generate_filename(build_name, prefix="bg3", suffix="build", ext="md"):
     """빌드명으로 안전한 파일명 생성"""
@@ -88,12 +79,7 @@ def generate_filename(build_name, prefix="bg3", suffix="build", ext="md"):
 
 def save_to_markdown(content, build_name, output_dir=None):
     """생성된 블로그 포스트를 마크다운 파일로 저장"""
-    # 1. BG3 헤더 이미지를 맨 앞에 추가 (간단하게!)
-    bg3_image_url = "https://i.namu.wiki/i/YJ42aHyMq-6Ol1p8xL7l1n3ExMbVJtX5UsTu-x2whwmfH-Ae8vEqsyUZHaQjw6pJx4gKv2wKfGj3BLQ4wtgBpye3pee0PX6I_472F0D6LOyQAJUhpqtWW02i6pRy5kRD__yO44e3ngLo5g.webp"
-    header_image = f"![Baldur's Gate 3]({bg3_image_url})\n\n---\n\n"
-    content = header_image + content
-    
-    # 2. 문장 마침표 뒤에 줄바꿈 추가
+    # 문장 마침표 뒤에 줄바꿈 추가
     content = add_newlines_after_sentences(content)
     
     filename = generate_filename(build_name)
@@ -157,11 +143,10 @@ def add_newlines_after_sentences(content):
         return match.group(0).replace('.', '#HEADER_DOT#')
     content = re.sub(r'#+\s+[^\n]*', preserve_header, content)
     
-    # 4. 문장 끝 마침표 패턴 찾기 (더 정교한 버전)
-    # - 마침표 뒤에 정확히 1개의 공백이 있고, 다음에 문자가 오는 경우만
-    # - 이미 줄바꿈이 있는 경우는 제외
-    # - Markdown에서 인식하도록 두 개의 공백 + 줄바꿈 사용
-    content = re.sub(r'\.( )([A-Z가-힣])', r'.  \n\2', content)
+    # 4. 문장 끝 마침표 패턴 찾기 
+    # - 마침표 + 공백 + 다음 글자 패턴
+    # - 마침표 + 줄바꿈이 아닌 경우
+    content = re.sub(r'\.(?= )', '.\n', content)
     
     # 5. 임시 문자들 복원
     content = content.replace('#DECIMAL#', '.')
@@ -181,18 +166,4 @@ def add_newlines_after_sentences(content):
     content = re.sub(r'\n{3,}', '\n\n', content)
     
     logger.info("문장 끝 마침표 뒤 줄바꿈 처리 완료")
-    return content
-
-def add_header_image_to_markdown(content):
-    """마크다운 최상단에 BG3 헤더 이미지 추가"""
-    logger.info("BG3 헤더 이미지를 마크다운 최상단에 추가 중...")
-    
-    # 나무위키 BG3 이미지 URL
-    header_image_url = "https://i.namu.wiki/i/YJ42aHyMq-6Ol1p8xL7l1n3ExMbVJtX5UsTu-x2whwmfH-Ae8vEqsyUZHaQjw6pJx4gKv2wKfGj3BLQ4wJfz_Mb4wtgBpye3pee0PX6I_472F0D6LOyQAJUhpqtWW02i6pRy5kRD__yO44e3ngLo5g.webp"
-    
-    # 헤더 이미지 마크다운 생성
-    header_image_md = f"""![Baldur's Gate 3]({header_image_url})
-
----
-
-"""
+    return content 

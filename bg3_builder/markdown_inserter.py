@@ -87,36 +87,7 @@ def extract_build_info(content):
     
     return info
 
-def create_summary_card(content):
-    """빌드 요약 카드 생성"""
-    build_info = extract_build_info(content)
-    
-    # 정보가 충분하지 않은 경우 기본값 설정
-    if not build_info["build_name"]:
-        build_info["build_name"] = "BG3 빌드"
-    if not build_info["role"]:
-        build_info["role"] = "다용도 캐릭터"
-    if not build_info["key_stats"]:
-        build_info["key_stats"] = "주요 능력치"
-    if not build_info["race"]:
-        build_info["race"] = "선호 종족"
-    if not build_info["strength"]:
-        build_info["strength"] = "효율적인 전투력"
-    if not build_info["patch"]:
-        build_info["patch"] = "최신 패치"
-    
-    # 요약 카드 마크다운 생성
-    summary_card = f"""
-> **빌드명**: {build_info["build_name"]}  
-> **주요 역할**: {build_info["role"]}  
-> **핵심 스탯**: {build_info["key_stats"]}  
-> **추천 종족**: {build_info["race"]}  
-> **강점**: {build_info["strength"]}  
-> **패치 기준**: {build_info["patch"]}
-"""
-    
-    logger.info("빌드 요약 카드 생성 완료")
-    return summary_card
+# 요약 카드 생성 함수 제거됨 - 사용자 요청에 따라 완전 삭제
 
 def extract_spells(content):
     """마크다운 내용에서 주문/스킬 추출"""
@@ -234,32 +205,64 @@ def create_combat_routine(content):
     logger.info("전투 루틴 섹션 생성 완료")
     return combat_routine
 
+def remove_existing_summary_cards(content):
+    """기존 마크다운에서 요약 카드(인용구) 제거"""
+    # 인용구 형태의 요약 카드 패턴 제거
+    patterns = [
+        # > **빌드명**: ... 형태의 요약 카드
+        r'>\s*\*\*빌드명\*\*:.*?(?=\n[^>]|\n$|\Z)',
+        # 연속된 인용구들 (여러 줄에 걸친 요약 카드)
+        r'(?:>\s*\*\*(?:빌드명|주요\s*역할|핵심\s*스탯|추천\s*종족|강점|패치\s*기준)\*\*:.*?\n)+',
+        # blockquote 태그로 된 요약 카드 (HTML 변환 후)
+        r'<blockquote[^>]*>.*?빌드명.*?</blockquote>',
+        # HTML에서 변환된 형태도 제거
+        r'<blockquote[^>]*>.*?<strong>빌드명</strong>.*?</blockquote>'
+    ]
+    
+    for pattern in patterns:
+        content = re.sub(pattern, '', content, flags=re.DOTALL | re.MULTILINE)
+    
+    # 빈 줄 정리 (연속된 빈 줄을 하나로)
+    content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
+    
+    logger.info("기존 요약 카드 제거 완료")
+    return content
+
 def enhance_markdown_content(content, build_name):
-    """마크다운 내용 강화 (요약 카드, 전투 루틴 추가)"""
+    """마크다운 내용 강화 (전투 루틴 추가만 수행, 요약 카드는 제거)"""
     logger.info("마크다운 콘텐츠 강화 작업 시작")
     
-    # 요약 카드 생성
-    summary_card = create_summary_card(content)
+    # 기존 요약 카드가 있다면 제거
+    content = remove_existing_summary_cards(content)
+    
+    # 요약 카드 생성 부분 제거 (사용자 요청에 따라)
+    # summary_card = create_summary_card(content)
     
     # 전투 루틴 섹션 생성
     combat_routine = create_combat_routine(content)
     
-    # 제목 찾기
+    # 제목 찾기 (요약 카드 삽입 부분 제거)
     title_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
     
-    if title_match:
-        # 제목 바로 아래에 요약 카드 삽입
-        title_end = title_match.end()
-        content = content[:title_end] + "\n\n" + summary_card + content[title_end:]
-    else:
-        # 제목이 없으면 문서 상단에 빌드명으로 제목 생성 후 요약 카드 삽입
+    # 요약 카드 삽입 로직 제거
+    # if title_match:
+    #     # 제목 바로 아래에 요약 카드 삽입
+    #     title_end = title_match.end()
+    #     content = content[:title_end] + "\n\n" + summary_card + content[title_end:]
+    # else:
+    #     # 제목이 없으면 문서 상단에 빌드명으로 제목 생성 후 요약 카드 삽입
+    #     title = f"# {build_name} 빌드 가이드\n\n"
+    #     content = title + summary_card + content
+    
+    # 제목이 없는 경우에만 제목 추가 (요약 카드 없이)
+    if not title_match:
         title = f"# {build_name} 빌드 가이드\n\n"
-        content = title + summary_card + content
+        content = title + content
     
     # 전투 루틴 섹션이 이미 있는지 확인
     if not re.search(r"^#+\s+(?:전투|컴뱃|콤보|루틴)", content, re.MULTILINE | re.IGNORECASE):
         # 마지막 섹션 뒤에 전투 루틴 추가
         content += "\n\n" + combat_routine
     
-    logger.info("마크다운 콘텐츠 강화 완료")
+    logger.info("마크다운 콘텐츠 강화 완료 (요약 카드 제외)")
     return content 

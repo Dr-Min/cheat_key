@@ -1,0 +1,104 @@
+# BG3 빌드 자동 생성 목록
+
+## 전통적 단일 클래스 빌드
+Battle Master Fighter
+Circle of the Moon Druid
+Evocation Wizard
+Draconic Sorcerer
+Berserker Barbarian
+Hexblade Warlock
+Light Domain Cleric
+Hunter Ranger
+Way of Shadow Monk
+Oath of Ancients Paladin
+College of Lore Bard
+Thief Rogue
+Wild Magic Sorcerer
+Great Old One Warlock
+Oathbreaker Paladin
+College of Swords Bard
+Way of the Open Hand Monk
+Circle of Stars Druid
+Swarmkeeper Ranger
+Bladesinger Wizard
+College of Glamour Bard
+Drunken Master Monk
+Champion Fighter
+Death Domain Cleric
+Shadow Magic Sorcerer
+
+## 멀티클래스/특수 조합 빌드
+Sorcerer Paladin Multiclass
+Bard Paladin Multiclass
+Hexblade Paladin Multiclass
+Gloomstalker Assassin Multiclass
+Barbarian Rogue Fighter Multiclass
+Eldritch Knight Thrower Build
+Circle of the Moon Druid Barbarian
+Sorcerer Warlock Eldritch Blast
+Paladin Champion Fighter
+Ranger Rogue Fighter Multiclass
+Warlock Paladin Bard Charisma
+Bard Sorcerer Spellcasting
+Monk Rogue Shadow Build
+Wizard Sorcerer Metamagic
+Barbarian Druid Wildshape Tank
+Sorcerer Warlock Paladin Nova
+Giant Barbarian Thief Fighter
+Sorcerer Wizard Arcane Master
+Paladin Warlock Sorcerer Smiter
+Bard Rogue Skill Monkey
+Ranger Paladin Divine Stalker
+Monk Paladin Stunning Smiter
+Wizard Rogue Arcane Trickster
+Barbarian Paladin Holy Rage
+Druid Wizard Nature Scholar
+
+## 특징적 플레이스타일 빌드
+Spell Spamming Sorcerer
+Eldritch Blast Machine Warlock
+One Turn Kill Assassin
+Tank Healer Cleric
+Infinite Thrower Barbarian
+Persuasion Specialist Bard
+Fire Focus Draconic Sorcerer
+Control Debuff Wizard
+Wildshape Tank Druid
+Stealth Thief Rogue
+Critical Nova Paladin
+Crowd Control Warlock
+Healing Buffer Cleric
+Mobility Evasion Monk
+Ranged Sniper Ranger
+Versatile Skill Bard
+Weapon Throwing Specialist
+Environmental Manipulator
+CC Damage Hybrid
+Accuracy Maximizer Fighter
+Summon Undead Specialist
+Elemental Wizard
+Shadow Assassin Specialist
+Skill Check Master
+Mechanical Trickster
+Defense Maximizer Tank
+Area Damage Burst
+Support Utility Build
+Damage Tank Hybrid
+Magic Nullifier Counter
+
+## 커뮤니티 특이 빌드
+Duelist Bard
+Necromancer Wizard
+Ice Mage Build
+Scorching Ray Sorcerer
+Spore Druid Bard
+Battle Master Thrower
+Triple Charisma Build
+Shadow Blade Sorcerer
+Wildshape Monk
+Tank Hybrid Build
+Skill Smite Hybrid
+Ultimate Spellcaster
+Unarmored Tank Monk
+Arcane Smiter
+Eldritch Sorcerer 
